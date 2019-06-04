@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/duc.iml" filepath="$PROJECT_DIR$/duc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duc-admin/duc-admin.iml" filepath="$PROJECT_DIR$/duc-admin/duc-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duc-core/duc-core.iml" filepath="$PROJECT_DIR$/duc-core/duc-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duc-redis/duc-redis.iml" filepath="$PROJECT_DIR$/duc-redis/duc-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duc-swagger/duc-swagger.iml" filepath="$PROJECT_DIR$/duc-swagger/duc-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duc-tkmybatis/duc-tkmybatis.iml" filepath="$PROJECT_DIR$/duc-tkmybatis/duc-tkmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duc-web/duc-web.iml" filepath="$PROJECT_DIR$/duc-web/duc-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="duc-admin" />
+        <module name="duc-core" />
+        <module name="duc-redis" />
+        <module name="duc-swagger" />
+        <module name="duc-tkmybatis" />
+        <module name="duc-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="duc" target="1.5" />
+      <module name="duc-admin" target="1.8" />
+      <module name="duc-core" target="1.8" />
+      <module name="duc-redis" target="1.6" />
+      <module name="duc-swagger" target="1.5" />
+      <module name="duc-tkmybatis" target="1.5" />
+      <module name="duc-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+    </parent>
+
+    <groupId>com.admin</groupId>
+    <artifactId>duc-admin</artifactId>
+    <version>1.0.0</version>
+    <name>duc-admin</name>
+    <description>duc-admin</description>
+
+
+
+    <properties>
+        <java.version>1.8</java.version>
+        <duc.version>1.0.0</duc.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+
+        <!--slf4j注解-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+        <!--Slf4j-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!--mysql驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jdbc</artifactId>
+        </dependency>
+
+        <!--核心代码-->
+        <dependency>
+            <groupId>com.core</groupId>
+            <artifactId>duc-core</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+
+        <!--TKMYBATIS核心代码-->
+        <dependency>
+            <groupId>com.tkmybatis</groupId>
+            <artifactId>duc-tkmybatis</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+
+        <!--web核心代码-->
+        <dependency>
+            <groupId>com.web</groupId>
+            <artifactId>duc-web</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+
+        <!--redis核心代码-->
+        <dependency>
+            <groupId>com.redis</groupId>
+            <artifactId>duc-redis</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+
+
+        <!--swagger核心代码-->
+        <dependency>
+            <groupId>com.swagger</groupId>
+            <artifactId>duc-swagger</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
