@@ -1,35 +1,34 @@
 server:
-    port: 8080
+  port: 8080
 
 spring:
-    application:
-            name: duc-admin
-    datasource:
-            type: org.apache.tomcat.jdbc.pool.DataSource
-            url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8&autoReconnect=true&useSSL=false
-            username: root
-            password: 920526770
-            driverClassName: com.mysql.jdbc.Driver
-            maxActive: 500
-            initialSize: 20
-            minIdle: 10
-            testOnBorrow: true
-            testWhileIdle: true
-            testOnReturn: false
-            validationInterval: 30000
-            validationQuery: SELECT 1
-            timeBetweenEvictionRunsMillis: 60000
-            minEvictableIdleTimeMillis: 30000
-            removeAbandonedTimeout: 300
-            jdbcInterceptors: org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer
+  application:
+    name: duc-admin
+  datasource:
+    type: org.apache.tomcat.jdbc.pool.DataSource
+    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    username: root
+    password: 920526770
+    driverClassName: com.mysql.jdbc.Driver
+    maxActive: 500
+    initialSize: 20
+    minIdle: 10
+    testOnBorrow: true
+    testWhileIdle: true
+    testOnReturn: false
+    validationInterval: 30000
+    validationQuery: SELECT 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    removeAbandonedTimeout: 300
+    jdbcInterceptors: org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer
 
 
-    redis:
-          host: 127.0.0.1
-          port: 6379
-          pool:
-              max-active: 8
-              max-wait: 1
-              max-idle: 8
-              min-idle: 0
-          timeout: 0
+jedis :
+  pool :
+    host : 127.0.0.1
+    port : 6379
+    config :
+      maxTotal: 100
+      maxIdle: 10
+      maxWaitMillis : 100000

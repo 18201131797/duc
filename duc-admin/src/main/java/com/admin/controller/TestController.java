@@ -1,11 +1,7 @@
 package com.admin.controller;
 
-import com.admin.load.StudentLoad;
 import com.admin.service.entity.Student;
 import com.admin.service.service.IStudentService;
-import com.google.gson.Gson;
-import com.redis.base.IBaseLaunch;
-import com.redis.base.ICacheFactory;
 import com.web.base.BaseController;
 import com.web.result.Result;
 import io.swagger.annotations.Api;
@@ -33,19 +29,16 @@ public class TestController extends BaseController {
     @Autowired
     private IStudentService studentService;
 
-    @Autowired
-    private IBaseLaunch<ICacheFactory> launch;
 
-
-    @ApiOperation(value = "新增用户1" ,  notes="新增注册2")
+    @ApiOperation(value = "新增用户1", notes = "新增注册2")
     @GetMapping
     public Result index() {
 
-        return Result.resultSuccess(10001, new Gson().fromJson(launch.loadServiceCache("test", StudentLoad.class).get(), List.class));
+        return Result.resultSuccess(10001, studentService.selectAll());
     }
 
 
-    @ApiOperation(value = "新增用户" ,  notes="新增注册")
+    @ApiOperation(value = "新增用户", notes = "新增注册")
     @GetMapping("/login")
     public Result token() {
         List<Student> all = studentService.selectAll();

@@ -1,5 +1,6 @@
 package com.admin.controller;
 
+import com.redis.annotation.RedisDel;
 import com.web.jwt.Jwt;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -23,6 +24,7 @@ import java.util.Map;
 public class loginController {
 
 
+    @RedisDel(key = "student")
     @GetMapping
     public String index() {
         Map<String, Object> map = new HashMap() {{

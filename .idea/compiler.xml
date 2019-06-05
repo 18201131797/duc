@@ -18,7 +18,7 @@
       <module name="duc" target="1.5" />
       <module name="duc-admin" target="1.8" />
       <module name="duc-core" target="1.8" />
-      <module name="duc-redis" target="1.6" />
+      <module name="duc-redis" target="1.8" />
       <module name="duc-swagger" target="1.5" />
       <module name="duc-tkmybatis" target="1.5" />
       <module name="duc-web" target="1.8" />
