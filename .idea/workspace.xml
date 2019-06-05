@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13da2d8-d2d8-41d1-bf26-39aeec283c17" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/annotation/Redis.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/annotation/RedisDel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisAspect.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisDelAspect.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/TestController.java" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/TestController.java" />
-      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/loginController.java" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/loginController.java" />
-      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/load/StudentLoad.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/service/service/impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/service/service/impl/StudentServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/duc-admin/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/duc-redis/pom.xml" afterPath="$PROJECT_DIR$/duc-redis/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/base/IBaseLaunch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/base/ICacheFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/base/ILoadCache.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/cache/RedisFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/cache/RedisLaunch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/core/RedisTemplates.java" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/core/RedisTemplates.java" />
+      <change beforePath="$PROJECT_DIR$/duc-redis/README.md" afterPath="$PROJECT_DIR$/duc-redis/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/duc-tkmybatis/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +37,7 @@
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="616">
               <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/service/service/impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -95,6 +65,19 @@
                 <element signature="e#917#918#0" expanded="true" />
                 <element signature="e#960#961#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/duc-redis/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,8 +95,8 @@
       <file leaf-file-name="loginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/loginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -248,7 +231,6 @@
         <option value="$PROJECT_DIR$/duc-web/src/main/java/com/web/spring/SpringCtxUtils.java" />
         <option value="$PROJECT_DIR$/duc-web/src/main/java/com/web/listener/ApplicationContextListener.java" />
         <option value="$PROJECT_DIR$/duc-web/src/main/java/com/web/spring/SpringLoad.java" />
-        <option value="$PROJECT_DIR$/duc-redis/README.md" />
         <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/cache/RedisLaunch.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/duc-swagger/pom.xml" />
@@ -274,6 +256,7 @@
         <option value="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/loginController.java" />
         <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisDelAspect.java" />
         <option value="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/duc-redis/README.md" />
       </list>
     </option>
   </component>
@@ -698,6 +681,56 @@
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duc" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duc" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duc" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duc" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duc" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duc" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duc" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-redis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -872,15 +905,16 @@
       <workItem from="1559540145384" duration="6000" />
       <workItem from="1559543621881" duration="4392000" />
       <workItem from="1559610418248" duration="5866000" />
-      <workItem from="1559704630253" duration="6595000" />
+      <workItem from="1559704630253" duration="6719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90940000" />
+    <option name="totallyTimeSpent" value="91064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -902,7 +936,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26877683" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26877683" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -951,16 +985,6 @@
     <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/annotation/SpringCtxUtil.java" />
     <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/annotation/MatrixDistributedFrameworkListener.java" />
     <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/annotation/tetA.java" />
-    <entry file="file://$PROJECT_DIR$/duc-redis/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="63">
-            <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/duc-admin/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1281,14 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1307,9 +1323,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/load/StudentLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="616">
           <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1317,11 +1341,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/load/StudentLoad.java">
+    <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-redis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
