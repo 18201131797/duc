@@ -96,6 +96,14 @@
             <version>${duc.version}</version>
         </dependency>
 
+
+
+        <dependency>
+            <groupId>com.rocketmq</groupId>
+            <artifactId>duc-rocketmq</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

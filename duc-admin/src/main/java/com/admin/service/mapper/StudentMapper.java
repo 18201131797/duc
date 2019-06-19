@@ -11,4 +11,5 @@ import com.tkmybatis.base.IBaseMapper;
  */
 
 public interface StudentMapper extends IBaseMapper<Student> {
+
 }

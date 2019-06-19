@@ -21,3 +21,4 @@ Spring Boot 工具包 -duc
 |4      |duc-tkmybatis|v1.0.0|提供底层查库方法，使操作更加简便，提供基本及常用方法|
 |5      |duc-web      |v1.0.0|提供一些web基本功能如jwt 返回数据封装 baseController等方法|
 |6      |duc-admin    |v1.0.0|管理后台|
+|7      |duc-rocketmq |v1.0.0|rocketmq的封裝|

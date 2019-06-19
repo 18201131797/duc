@@ -22,7 +22,16 @@ spring:
     minEvictableIdleTimeMillis: 30000
     removeAbandonedTimeout: 300
     jdbcInterceptors: org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer
-
+  rocketmq:
+    name-server-address: 10.12.52.34:9876;10.12.52.35:9876
+    # 可选, 如果无需发送消息则忽略该配置
+    producer-group: local_pufang_producer
+    # 发送超时配置毫秒数, 可选, 默认3000
+    send-msg-timeout: 5000
+    # 追溯消息具体消费情况的开关，默认打开
+    trace-enabled: false
+    # 是否启用VIP通道，默认打开
+    #vip-channel-enabled: false
 
 jedis :
   pool :

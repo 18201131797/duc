@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/duc-redis/pom.xml" />
         <option value="$PROJECT_DIR$/duc-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/duc-rocketmq/pom.xml" />
       </list>
     </option>
   </component>

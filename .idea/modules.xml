@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/duc-admin/duc-admin.iml" filepath="$PROJECT_DIR$/duc-admin/duc-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/duc-core/duc-core.iml" filepath="$PROJECT_DIR$/duc-core/duc-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/duc-redis/duc-redis.iml" filepath="$PROJECT_DIR$/duc-redis/duc-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duc-rocketmq/duc-rocketmq.iml" filepath="$PROJECT_DIR$/duc-rocketmq/duc-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/duc-swagger/duc-swagger.iml" filepath="$PROJECT_DIR$/duc-swagger/duc-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/duc-tkmybatis/duc-tkmybatis.iml" filepath="$PROJECT_DIR$/duc-tkmybatis/duc-tkmybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/duc-web/duc-web.iml" filepath="$PROJECT_DIR$/duc-web/duc-web.iml" />
