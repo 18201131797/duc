@@ -1,9 +1,7 @@
 package com.admin.controller;
 
-import com.redis.annotation.RedisDel;
+import com.redis.annotation.CacheClean;
 import com.web.jwt.Jwt;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,7 +22,7 @@ import java.util.Map;
 public class loginController {
 
 
-    @RedisDel(key = "student")
+    @CacheClean(key = "selectAll")
     @GetMapping
     public String index() {
         Map<String, Object> map = new HashMap() {{

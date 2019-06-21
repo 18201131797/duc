@@ -13,11 +13,11 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(value = {ElementType.METHOD, ElementType.TYPE})
-public @interface Redis {
+public @interface Cacheable {
 
     /**
      * @version 1.0.0.0
-     * @Description: redis key
+     * @Description: Constant key
      * @Author: liwt
      * @date: 2019/6/5 13:32
      */
@@ -25,7 +25,7 @@ public @interface Redis {
 
     /**
      * @version 1.0.0.0
-     * @Description: redis 过期时间（秒） 默认一个月
+     * @Description: Constant 过期时间（秒） 默认一个月
      * @Author: liwt
      * @date: 2019/6/5 13:32
      */

@@ -1,7 +1,8 @@
 package com.redis.aspect;
 
 import com.google.gson.Gson;
-import com.redis.annotation.Redis;
+import com.redis.annotation.Cacheable;
+import com.redis.core.RedisConfiguration;
 import com.redis.core.RedisTemplates;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -26,38 +27,44 @@ import java.util.concurrent.TimeUnit;
 @Aspect
 @Component
 @Slf4j
-public class RedisAspect {
+public class RedisAspect extends RedisConfiguration {
 
     private final int retryCount = 10;
 
     @Autowired
     private RedisTemplates redisTemplates;
 
-    @Pointcut("@annotation(com.redis.annotation.Redis)")
+
+    @Pointcut("@annotation(com.redis.annotation.Cacheable)")
     public void aspect() {
     }
 
     @Around("aspect()&&@annotation(anno)")
-    public Object interceptor(ProceedingJoinPoint invocation, Redis anno) {
+    public Object interceptor(ProceedingJoinPoint invocation, Cacheable anno) {
         MethodSignature signature = (MethodSignature) invocation.getSignature();
         Method method = signature.getMethod();
         Object result = null;
         String key = "";
-        String value = "";
+        String value;
         try {
             key = anno.key();
+            if ("".equals(key)) {
+                //key 必填
+                return result;
+            }
+            //添加前缀
+            key = redisConstant.getPrefix().concat(":").concat(key);
             value = redisTemplates.get(key);
             Type returnType = method.getGenericReturnType();
             result = getResult(value, result, returnType);
-        } catch (Exception e) {
-            log.error("获取缓存失败：" + key, e);
-        } finally {
             if (result == null) {
                 result = getValue(key, invocation);
                 if (StringUtils.isNotBlank(key) && result != null) {
                     redisTemplates.setEx(key, result, anno.timeout(), TimeUnit.SECONDS);
                 }
             }
+        } catch (Exception e) {
+            log.error("获取缓存失败：" + key, e);
         }
         return result;
     }
@@ -68,10 +75,10 @@ public class RedisAspect {
      * @Author: liwt
      * @date: 2019/5/31 13:26
      */
-    public synchronized Object getValue(String key, ProceedingJoinPoint invocation) {
+    public Object getValue(String key, ProceedingJoinPoint invocation) {
         Object result = null;
         try {
-            // Redis 开始增量计次：10次。如果10分钟内10次连续查询数据库，则10分钟内返回空
+            // Cacheable 开始增量计次：10次。如果10分钟内10次连续查询数据库，则10分钟内返回空
             Long count = increment(key, 10 * 60L);
             if (count >= retryCount) {
                 return result;

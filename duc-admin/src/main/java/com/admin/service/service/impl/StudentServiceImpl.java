@@ -3,7 +3,7 @@ package com.admin.service.service.impl;
 import com.admin.service.entity.Student;
 import com.admin.service.mapper.StudentMapper;
 import com.admin.service.service.IStudentService;
-import com.redis.annotation.Redis;
+import com.redis.annotation.Cacheable;
 import com.tkmybatis.base.IBaseMapper;
 import com.tkmybatis.base.IBaseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +30,7 @@ public class StudentServiceImpl extends IBaseServiceImpl<Student> implements ISt
         return studentMapper;
     }
 
-    @Redis(key = "student")
+    @Cacheable(key = "selectAll")
     @Override
     public List<Student> selectAll() {
         return mapper().selectAll();

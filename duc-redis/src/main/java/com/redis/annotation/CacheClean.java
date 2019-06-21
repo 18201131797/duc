@@ -13,11 +13,11 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(value = {ElementType.METHOD, ElementType.TYPE})
-public @interface RedisDel {
+public @interface CacheClean {
 
     /**
      * @version 1.0.0.0
-     * @Description: redis key
+     * @Description: Constant key
      * @Author: liwt
      * @date: 2019/6/5 13:32
      */

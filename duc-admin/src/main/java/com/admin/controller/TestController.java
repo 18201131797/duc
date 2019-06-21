@@ -36,7 +36,6 @@ public class TestController extends BaseController {
     @ApiOperation(value = "新增用户1", notes = "新增注册2")
     @GetMapping
     public Result index() {
-        demoProducer.send();
         return Result.resultSuccess(10001, studentService.selectAll());
     }
 
