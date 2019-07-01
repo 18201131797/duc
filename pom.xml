@@ -17,6 +17,7 @@
         <module>duc-redis</module>
         <module>duc-swagger</module>
         <module>duc-rocketmq</module>
+        <module>duc-security</module>
     </modules>
 
 

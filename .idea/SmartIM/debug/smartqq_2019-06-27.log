@@ -1,0 +1,240 @@
+2019-06-27 15:37:22.862 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:37:23.058 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:37:23.058 [Thread-7] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:38:17.437 [Thread-15] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:38:17.455 [Thread-15] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:38:17.456 [Thread-15] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:38:21.749 [Thread-7] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-06-27 15:38:37.701 [Thread-17] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:38:37.748 [Thread-17] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:38:37.748 [Thread-17] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:38:49.702 [Thread-18] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:38:49.752 [Thread-18] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:38:49.753 [Thread-18] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:39:15.857 [Thread-15] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-06-27 15:39:22.087 [Thread-20] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:39:22.221 [Thread-20] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:39:22.221 [Thread-20] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:39:24.078 [Thread-18] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已失效，尝试重新获取二维码
+2019-06-27 15:39:24.078 [Thread-18] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 二维码已失效
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:184)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-06-27 15:39:24.141 [Thread-17] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已失效，尝试重新获取二维码
+2019-06-27 15:39:24.141 [Thread-17] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 二维码已失效
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:184)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-06-27 15:39:30.752 [Thread-20] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2019-06-27 15:39:30.752 [Thread-20] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2019-06-27 15:39:31.135 [Thread-20] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2019-06-27 15:39:31.157 [Thread-20] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.net.SocketException: Network is unreachable: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:124)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:223)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:149)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:195)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at com.scienjus.smartqq.client.SmartQQApi.get(SmartQQApi.java:505)
+	at com.scienjus.smartqq.client.SmartQQApi.getVfwebqq(SmartQQApi.java:211)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:111)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-06-27 15:39:38.000 [Thread-24] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:39:38.053 [Thread-24] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:39:38.054 [Thread-24] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:39:39.212 [Thread-24] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2019-06-27 15:39:39.213 [Thread-24] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2019-06-27 15:39:39.482 [Thread-24] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2019-06-27 15:39:39.493 [Thread-24] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.net.SocketException: Network is unreachable: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:124)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:223)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:149)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:195)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at com.scienjus.smartqq.client.SmartQQApi.get(SmartQQApi.java:505)
+	at com.scienjus.smartqq.client.SmartQQApi.getVfwebqq(SmartQQApi.java:211)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:111)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-06-27 15:39:43.521 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:39:43.572 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:39:43.572 [Thread-26] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:39:44.718 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2019-06-27 15:39:44.718 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2019-06-27 15:39:45.005 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2019-06-27 15:39:45.018 [Thread-26] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.net.SocketException: Network is unreachable: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:124)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:223)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:149)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:195)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at com.scienjus.smartqq.client.SmartQQApi.get(SmartQQApi.java:505)
+	at com.scienjus.smartqq.client.SmartQQApi.getVfwebqq(SmartQQApi.java:211)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:111)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-06-27 15:39:50.222 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-06-27 15:39:50.264 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 H:\github\duc\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-06-27 15:39:50.265 [Thread-28] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-06-27 15:39:51.409 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2019-06-27 15:39:51.409 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2019-06-27 15:39:51.683 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2019-06-27 15:39:51.694 [Thread-28] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.net.SocketException: Network is unreachable: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:124)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:223)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:149)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:195)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at com.scienjus.smartqq.client.SmartQQApi.get(SmartQQApi.java:505)
+	at com.scienjus.smartqq.client.SmartQQApi.getVfwebqq(SmartQQApi.java:211)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:111)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)

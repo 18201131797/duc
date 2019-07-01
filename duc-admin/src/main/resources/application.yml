@@ -41,3 +41,4 @@ jedis :
       maxTotal: 100
       maxIdle: 10
       maxWaitMillis : 100000
+
