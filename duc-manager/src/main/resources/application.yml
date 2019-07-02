@@ -46,7 +46,7 @@ security:
   matchers[3]: /js/**
   matchers[4]: /lib/**
   loginPage: /login
-  defaultSuccessUrl: /web/home
+  defaultSuccessUrl: /index
   failureUrl: /login?error=false
   logoutUrl: /logout
   logoutSuccessUrl: /login

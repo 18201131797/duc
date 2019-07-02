@@ -1,10 +1,9 @@
-package com.manager.controller.login;
+package com.manager.controller.index;
 
+import com.manager.controller.base.BaseController;
 import com.security.base.UserSecurity;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -12,15 +11,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @version 1.0.0.0
  * @Description:
  * @Author: liwt
- * @date: 2019/7/1 9:39
+ * @date: 2019/7/2 11:24
  */
 @Controller
-@RequestMapping("/login")
-public class LoginController {
+@RequestMapping("/index")
+public class IndexController extends BaseController {
 
     @GetMapping
-    public String login(){
-        return "login";
+    @ResponseBody
+    public UserSecurity index() {
+        UserSecurity user = findUser();
+        return user;
     }
-
 }
