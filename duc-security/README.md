@@ -1,7 +1,7 @@
 Security 工具包
 =========================
 
-**是用方式**
+**使用方式**
 
 - 集成 UserDetailService<User> User==系统用户
 
