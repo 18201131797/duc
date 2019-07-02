@@ -1,209 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13da2d8-d2d8-41d1-bf26-39aeec283c17" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/SmartIM/debug/smartqq_2019-06-27.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/SmartIM/info/smartqq_2019-06-27.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/SmartIM/smartqq.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/SmartIM/wechat.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/DucManagerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/login/LoginController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/SecurityInitializer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserDetailService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserSecurity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/config/WebSecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/entity/BaseSecurityEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/UserRole.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/RoleMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/UserMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/UserRoleMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/RoleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/UserRoleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/impl/RoleServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/impl/UserRoleServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/user/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/user/impl/UserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/font.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/theme1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/theme2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/theme3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/theme4.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/theme5.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/css/xadmin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/fonts/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/fonts/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/fonts/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/fonts/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/images/aiwrap.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/html5.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/respond.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/xadmin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/xcity.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/layui.mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/code.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/laydate/default/laydate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/layer/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/layer/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/layer/default/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/layer/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/layer/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/css/modules/layer/default/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/font/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/font/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/font/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/font/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/11.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/12.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/13.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/14.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/15.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/17.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/18.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/19.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/20.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/22.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/23.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/25.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/26.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/27.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/28.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/29.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/30.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/31.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/32.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/33.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/34.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/35.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/36.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/37.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/38.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/39.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/40.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/41.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/42.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/43.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/44.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/45.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/46.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/47.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/48.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/49.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/50.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/51.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/52.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/53.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/54.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/55.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/56.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/57.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/58.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/59.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/60.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/61.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/62.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/63.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/65.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/66.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/67.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/68.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/69.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/70.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/71.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/images/face/9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/code.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/colorpicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/flow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/laydate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/layedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/laypage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/laytpl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/rate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/slider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/tree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/upload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/layui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/test/java/com/manager/DucManagerApplicationTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/base/SecurityInitializer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/base/UserDetailService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/base/UserSecurity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/BaseSecurityEntity.java" />
+    <list default="true" id="4d3b4a0e-bd34-4b99-bc1a-98a87b3cf2bf" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/MD5PasswordEncoder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/NOPasswordEncoder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/SHAPasswordEncoder.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartIM/debug/smartqq_2019-06-27.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartIM/info/smartqq_2019-06-27.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartIM/smartqq.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartIM/wechat.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/duc-admin/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/duc-web/src/main/java/com/web/filter/JwtFilter.java" afterPath="$PROJECT_DIR$/duc-web/src/main/java/com/web/filter/JwtFilter.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/pom.xml" afterPath="$PROJECT_DIR$/duc-manager/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/DucManagerApplication.java" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/DucManagerApplication.java" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/login/LoginController.java" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/login/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecurityConfig.java" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/SecurityInitializer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserDetailService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserSecurity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/config/WebSecurityConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/entity/BaseSecurityEntity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/User.java" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/duc-security/pom.xml" afterPath="$PROJECT_DIR$/duc-security/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" />
     </list>
-    <ignored path="$PROJECT_DIR$/duc-tkmybatis/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/duc-admin/target/" />
-    <ignored path="$PROJECT_DIR$/duc-web/target/" />
     <ignored path="$PROJECT_DIR$/duc-core/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/duc-security/target/" />
     <ignored path="$PROJECT_DIR$/duc-redis/target/" />
+    <ignored path="$PROJECT_DIR$/duc-web/target/" />
     <ignored path="$PROJECT_DIR$/duc-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/duc-tkmybatis/target/" />
+    <ignored path="$PROJECT_DIR$/duc-admin/target/" />
     <ignored path="$PROJECT_DIR$/duc-rocketmq/target/" />
     <ignored path="$PROJECT_DIR$/duc-manager/target/" />
-    <ignored path="$PROJECT_DIR$/duc-security/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,61 +50,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/duc$DucAdminApplication.coverage" NAME="DucAdminApplication Coverage Results" MODIFIED="1561621731149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/duc-security/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-security/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="189">
+                <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-manager/pom.xml">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="39" />
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="1302">
+              <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="52" selection-end-column="13" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -275,49 +101,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tags</find>
-      <find>consumer</find>
-      <find>name-server-address</find>
-      <find>NAMESRV_ADDR</find>
-      <find>setMessageModel</find>
-      <find>DefaultMQProducer</find>
-      <find>DefaultMQPushConsumer</find>
-      <find>user-tag</find>
-      <find>local_pufang_producer</find>
-      <find>setNamesrvAddr</find>
-      <find>producer.send</find>
-      <find>subscribe</find>
-      <find>MQProperties.gettrac</find>
-      <find>asyncAppender</find>
-      <find>mqProperties.getTraceEnabled()</find>
-      <find>send</find>
-      <find>vipchannelenabled</find>
-      <find>vipChannelEnabled</find>
-      <find>repository</find>
-      <find>repositories</find>
-      <find>distributionManagement</find>
-      <find>clazz</find>
-      <find>core</find>
-      <find>traceenabled</find>
-      <find>MQProperties</find>
-      <find>jedis</find>
-      <find>selectAll</find>
-      <find>html5</find>
-      <find>properties</find>
       <find>security</find>
+      <find>webSecurityConfig</find>
+      <find>AuthenticationManager</find>
+      <find>CharSequence</find>
+      <find>MD5Utils</find>
+      <find>Configuration</find>
+      <find>traceenabled</find>
+      <find>${V</find>
+      <find>ConfigurationProperties</find>
+      <find>AbstractRequestMatcherRegistry</find>
+      <find>mvcMatchers</find>
+      <find>authorizeRequests</find>
+      <find>org.springframework.security.config.annotation.web.builders.HttpSecurity</find>
+      <find>context</find>
+      <find>config</find>
+      <find>SecurityConfigurerAdapter</find>
+      <find>configure</find>
     </findStrings>
     <replaceStrings>
       <replace />
-      <replace>*/</replace>
-      <replace>*/@Inject</replace>
-      <replace>@author:liwt</replace>
-      <replace>liwt</replace>
+      <replace>HttpSecurityAgent</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -331,57 +140,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/service/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/annotation/Cacheable.java" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/core/RedisTemplates.java" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/config/redis.java" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/config/Constant.java" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/core/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/duc-redis/README.md" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisDelAspect.java" />
-        <option value="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisAspect.java" />
-        <option value="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/loginController.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/login/LoginController.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/html5.min.js" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/respond.min.js" />
-        <option value="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/service/entity/Student.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/user/UserService.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/UserSecurity.java" />
-        <option value="$PROJECT_DIR$/duc-admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/duc-tkmybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/user/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/duc-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/UserRoleMapper.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/RoleService.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/Role.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/UserRoleService.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/impl/UserRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/UserRole.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/SystemUser.java" />
-        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/base/IUserSecurity.java" />
-        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/base/UserSecurity.java" />
-        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/base/UserDetailService.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/UserDetailService.java" />
-        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/BaseSecurityEntity.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/SecurityInitializer.java" />
+        <option value="$PROJECT_DIR$/duc-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/User.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserSecurity.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserDetailService.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/DucManagerApplication.java" />
-        <option value="$PROJECT_DIR$/duc-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/MD5Utils.java" />
         <option value="$PROJECT_DIR$/duc-security/pom.xml" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/AbstractRequestMatcherRegistryAgent.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/FilterComparatorAgent.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/HttpSecurityAgent.java" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecretPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/SecretPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/MD5PasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/NOPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/SHAPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/AESPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/DESPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/duc-security/README.md" />
       </list>
     </option>
   </component>
@@ -398,24 +181,23 @@
         <option name="userSettingsFile" value="E:\maven\apache-maven-3.3.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="duc-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="duc-security" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="duc-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="duc-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.security:duc-security:1.0.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="duc-security" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -426,379 +208,6 @@
     <option name="y" value="34" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>AOP</id>
-          </State>
-          <State>
-            <id>Abstraction issuesJava</id>
-          </State>
-          <State>
-            <id>ActionScript specificJavaScript</id>
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Internationalization</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Performance</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Security</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Typography</id>
-          </State>
-          <State>
-            <id>Android Lint for Kotlin</id>
-          </State>
-          <State>
-            <id>Application Server Specific Inspections</id>
-          </State>
-          <State>
-            <id>ArquillianJava</id>
-          </State>
-          <State>
-            <id>Assignment issuesGroovy</id>
-          </State>
-          <State>
-            <id>Assignment issuesJava</id>
-          </State>
-          <State>
-            <id>Assignment issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Bitwise operation issuesJava</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Class metricsJava</id>
-          </State>
-          <State>
-            <id>Class structureJava</id>
-          </State>
-          <State>
-            <id>Cloning issuesJava</id>
-          </State>
-          <State>
-            <id>Code maturity issuesJava</id>
-          </State>
-          <State>
-            <id>Code quality toolsJavaScript</id>
-          </State>
-          <State>
-            <id>Code style issuesCSS</id>
-          </State>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>CoffeeScript</id>
-          </State>
-          <State>
-            <id>Concurrency annotation issuesJava</id>
-          </State>
-          <State>
-            <id>Control flow issuesGroovy</id>
-          </State>
-          <State>
-            <id>Control flow issuesJava</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Data flow issuesGroovy</id>
-          </State>
-          <State>
-            <id>Data flow issuesJava</id>
-          </State>
-          <State>
-            <id>Data flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>ECMAScript 6 migration aidsJavaScript</id>
-          </State>
-          <State>
-            <id>Error handlingGroovy</id>
-          </State>
-          <State>
-            <id>Error handlingJava</id>
-          </State>
-          <State>
-            <id>Error handlingJavaScript</id>
-          </State>
-          <State>
-            <id>FlexUnit inspections</id>
-          </State>
-          <State>
-            <id>Flow type checkerJavaScript</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralCoffeeScript</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>Inheritance issuesJava</id>
-          </State>
-          <State>
-            <id>Initialization issuesJava</id>
-          </State>
-          <State>
-            <id>Internationalization issues</id>
-          </State>
-          <State>
-            <id>Internationalization issuesJava</id>
-          </State>
-          <State>
-            <id>J2ME issuesJava</id>
-          </State>
-          <State>
-            <id>JBoss Seam issues</id>
-          </State>
-          <State>
-            <id>JSP Inspections</id>
-          </State>
-          <State>
-            <id>JUnit issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 5Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java interop issuesKotlin</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavaFX</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript function metricsJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Javadoc issuesJava</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>Logging issuesJava</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>Memory issuesJava</id>
-          </State>
-          <State>
-            <id>Method metricsGroovy</id>
-          </State>
-          <State>
-            <id>Method metricsJava</id>
-          </State>
-          <State>
-            <id>Naming conventionsGroovy</id>
-          </State>
-          <State>
-            <id>Naming conventionsJava</id>
-          </State>
-          <State>
-            <id>Naming conventionsJavaScript</id>
-          </State>
-          <State>
-            <id>Naming conventionsKotlin</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>OSGi</id>
-          </State>
-          <State>
-            <id>Packaging issuesJava</id>
-          </State>
-          <State>
-            <id>Performance issuesJava</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Portability issuesJava</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugs</id>
-          </State>
-          <State>
-            <id>Probable bugsCSS</id>
-          </State>
-          <State>
-            <id>Probable bugsCoffeeScript</id>
-          </State>
-          <State>
-            <id>Probable bugsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>Redundant constructsKotlin</id>
-          </State>
-          <State>
-            <id>Reflective access issuesJava</id>
-          </State>
-          <State>
-            <id>Resource management issuesJava</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>Security issuesJava</id>
-          </State>
-          <State>
-            <id>Serialization issuesJava</id>
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring BootSpring</id>
-          </State>
-          <State>
-            <id>Spring CloudSpring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring DataSpring</id>
-          </State>
-          <State>
-            <id>Spring Web FlowSpring</id>
-          </State>
-          <State>
-            <id>Style issuesKotlin</id>
-          </State>
-          <State>
-            <id>StyleGroovy</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-          <State>
-            <id>TypeScript</id>
-          </State>
-          <State>
-            <id>UI Form Problems</id>
-          </State>
-          <State>
-            <id>Velocity inspections</id>
-          </State>
-          <State>
-            <id>Visibility issuesJava</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpringBootAdditionalConfig</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -816,8 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -825,26 +232,18 @@
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-security" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -854,26 +253,17 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootExamples-master" />
-    <property name="SearchEverywhereHistoryKey" value="html5&#9;null&#9;null&#10;com.admin.service.mapper&#9;PSI&#9;JAVA://com.admin.service.mapper.StudentMapper" />
+    <property name="SearchEverywhereHistoryKey" value="com.security.config.WebSecurityConfig&#9;PSI&#9;JAVA://com.security.config.WebSecurityConfig" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\github\duc\duc-manager\src\main\java\com\manager\security" />
-      <recent name="H:\github\duc\duc-security\src\main\java\com\security\base" />
-      <recent name="H:\github\duc\duc-security\src\main\java\com\security" />
-      <recent name="H:\github\duc\duc-manager\src\main\java\com\manager\source\entity" />
-      <recent name="H:\github\duc\duc-manager\src\main\java\com\manager\source\mapper" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.manager.security" />
-      <recent name="com.security.base" />
-      <recent name="com.security.config" />
-      <recent name="com.redis.aspect" />
-      <recent name="com.redis.annotation" />
+      <recent name="com.security.common" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tkmybatis.base" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\github\duc\duc-security" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -949,12 +339,6 @@
       <module name="duc-manager" />
       <envs />
     </configuration>
-    <configuration name="DucSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.security.DucSecurityApplication" />
-      <module name="duc-security" />
-      <envs />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -988,10 +372,9 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.DucAdminApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.DucManagerApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.DucSecurityApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -1002,94 +385,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f13da2d8-d2d8-41d1-bf26-39aeec283c17" name="Default" comment="" />
-      <created>1559181081734</created>
+      <changelist id="4d3b4a0e-bd34-4b99-bc1a-98a87b3cf2bf" name="Default" comment="" />
+      <created>1561969038891</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559181081734</updated>
-      <workItem from="1559181083003" duration="23133000" />
-      <workItem from="1559264129539" duration="22428000" />
-      <workItem from="1559366391611" duration="16633000" />
-      <workItem from="1559437078464" duration="5730000" />
-      <workItem from="1559540145384" duration="6000" />
-      <workItem from="1559543621881" duration="4392000" />
-      <workItem from="1559610418248" duration="5866000" />
-      <workItem from="1559704630253" duration="7683000" />
-      <workItem from="1559724134352" duration="649000" />
-      <workItem from="1559789434330" duration="4251000" />
-      <workItem from="1560129910547" duration="10256000" />
-      <workItem from="1560233671554" duration="715000" />
-      <workItem from="1560241862929" duration="5000" />
-      <workItem from="1560475832512" duration="6570000" />
-      <workItem from="1560502369889" duration="1348000" />
-      <workItem from="1560735525901" duration="1305000" />
-      <workItem from="1560753515247" duration="331000" />
-      <workItem from="1560757776834" duration="6803000" />
-      <workItem from="1560846945857" duration="1506000" />
-      <workItem from="1560906165298" duration="8148000" />
-      <workItem from="1561087550607" duration="186000" />
-      <workItem from="1561096630022" duration="11083000" />
-      <workItem from="1561620005454" duration="81000" />
-      <workItem from="1561620101165" duration="484000" />
-      <workItem from="1561620602421" duration="37000" />
-      <workItem from="1561620655600" duration="297000" />
-      <workItem from="1561620973321" duration="305000" />
-      <workItem from="1561621281913" duration="314000" />
-      <workItem from="1561621616881" duration="101000" />
-      <workItem from="1561621721005" duration="30000" />
-      <workItem from="1561621769725" duration="1304000" />
-      <workItem from="1561623586519" duration="4000" />
-      <workItem from="1561623609864" duration="1962000" />
-      <workItem from="1561696944166" duration="4767000" />
-      <workItem from="1561947800253" duration="15742000" />
-      <workItem from="1561965730660" duration="1339000" />
-      <workItem from="1561967089343" duration="53000" />
+      <updated>1561969038891</updated>
+      <workItem from="1561969040211" duration="162000" />
+      <workItem from="1561969210247" duration="5322000" />
+      <workItem from="1562029340386" duration="6414000" />
+      <workItem from="1562036209680" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172505000" />
+    <option name="totallyTimeSpent" value="11954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39538628" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="MyBatis Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34891677" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="MyBatis Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23497854" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32036614" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="SmartIM" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32611173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32265446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1102,378 +450,447 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/aop/testAop.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/SHAPasswordEncoder.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/duc-rocketmq/src/main/java/com/rocketmq/config/MQProducerAutoConfiguration.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="80" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="111" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/duc-tkmybatis/src/main/java/com/tkmybatis/base/IBaseService.java">
+    <entry file="file://$PROJECT_DIR$/duc-rocketmq/src/main/java/com/rocketmq/config/MQProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="133" column="6" lean-forward="false" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
+        <state relative-caret-position="588">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/user/UserService.java">
+    <entry file="file://$PROJECT_DIR$/duc-rocketmq/src/main/java/com/rocketmq/config/MQConsumerAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="2184">
+          <caret line="126" column="38" lean-forward="false" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/service/service/IStudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-admin/src/main/java/com/admin/service/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/user/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="60" column="21" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/mapper/UserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/UserRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/service/role/impl/UserRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/config/SpringBoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/DucSecurityApplication.java" />
-    <entry file="file://$PROJECT_DIR$/duc-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/SystemUser.java" />
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/base/IUserSecurity.java" />
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/UserSecurity.java" />
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecurityInitializer.java" />
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-web/4.2.6.RELEASE/spring-security-web-4.2.6.RELEASE.jar!/org/springframework/security/web/context/AbstractSecurityWebApplicationInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/base/SecurityInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/base/UserSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/WebSecurityConfig.java" />
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="882">
+          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="147">
+          <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/BaseSecurityEntity.java">
+    <entry file="file://$PROJECT_DIR$/duc-rocketmq/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/duc-manager.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-core/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/config/WebSecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/duc-manager/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/base/UserDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/BaseSecurityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/DucManagerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/BeanIds.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332">
+          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/MD5Utils.java" />
+    <entry file="file://$PROJECT_DIR$/duc-admin/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-rocketmq/src/main/java/com/rocketmq/config/MQProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-rocketmq/src/main/java/com/rocketmq/config/MQConsumerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="126" column="38" lean-forward="false" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="440" column="37" lean-forward="false" selection-start-line="440" selection-start-column="37" selection-end-line="440" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/annotation/web/AbstractRequestMatcherRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/AbstractRequestMatcherRegistryAgent.java" />
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/FilterComparatorAgent.java" />
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/FilterComparator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/HttpSecurityAgent.java" />
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecretPasswordEncoder.java" />
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/entity/BaseSecurityEntity.java">
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/AESPasswordEncoder.java" />
+    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/DESUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/SecurityInitializer.java">
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="131">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/DESPasswordEncoder.java" />
+    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/EncryptAndDecryptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/SHAPasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/MD5PasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/NOPasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-rocketmq/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-redis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="118">
+            <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="-192">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+    <entry file="file://$PROJECT_DIR$/duc-security/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserSecurity.java">
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="1302">
+          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/DucManagerApplication.java">
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="861">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="52" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/base/UserDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="41" column="72" lean-forward="false" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="124" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="39" />
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>duc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

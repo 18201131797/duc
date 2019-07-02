@@ -4,11 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-swagger/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-rocketmq/pom.xml" />
         <option value="$PROJECT_DIR$/duc-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-security/pom.xml" />
       </list>
     </option>
   </component>

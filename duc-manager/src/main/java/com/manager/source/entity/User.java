@@ -1,6 +1,6 @@
 package com.manager.source.entity;
 
-import com.manager.security.entity.BaseSecurityEntity;
+import com.security.entity.BaseSecurityEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

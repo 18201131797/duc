@@ -8,6 +8,7 @@ Spring Boot 工具包 -duc
 - [duc-swagger](https://github.com/18201131797/duc/tree/dev/duc-swagger)：swagger工具包
 - [duc-tkmybatis](https://github.com/18201131797/duc/tree/dev/duc-tkmybatis) ：tkmybatis工具包
 - [duc-web](https://github.com/18201131797/duc/tree/dev/duc-web) ：web工具包
+- [duc-security](https://github.com/18201131797/duc/tree/dev/duc-security) ：security工具包
 - [duc-admin](https://github.com/18201131797/duc/tree/dev/duc-admin) ：admin 管理后台
 
 **说明**
@@ -22,3 +23,4 @@ Spring Boot 工具包 -duc
 |5      |duc-web      |v1.0.0|提供一些web基本功能如jwt 返回数据封装 baseController等方法|
 |6      |duc-admin    |v1.0.0|管理后台|
 |7      |duc-rocketmq |v1.0.0|rocketmq的封裝|
+|8      |duc-security |v1.0.0|security的封裝|

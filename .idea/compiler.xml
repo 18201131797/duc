@@ -24,7 +24,7 @@
       <module name="duc-manager" target="1.8" />
       <module name="duc-redis" target="1.8" />
       <module name="duc-rocketmq" target="1.8" />
-      <module name="duc-security" target="1.5" />
+      <module name="duc-security" target="1.8" />
       <module name="duc-swagger" target="1.5" />
       <module name="duc-tkmybatis" target="1.5" />
       <module name="duc-web" target="1.8" />

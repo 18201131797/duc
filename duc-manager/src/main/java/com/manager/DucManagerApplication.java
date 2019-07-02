@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @MapperScan({"com.manager.source.mapper"})
-@ComponentScan(basePackages = {"com.tkmybatis","com.manager"})
+@ComponentScan(basePackages = {"com.tkmybatis","com.manager","com.security"})
 @SpringBootApplication
 public class DucManagerApplication {
 

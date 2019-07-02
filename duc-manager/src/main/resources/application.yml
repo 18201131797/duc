@@ -37,3 +37,17 @@ logging:
       manager:
         source:
           mapper: trace
+
+
+security:
+  matchers[0]: /css/**
+  matchers[1]: /fonts/**
+  matchers[2]: /images/**
+  matchers[3]: /js/**
+  matchers[4]: /lib/**
+  loginPage: /login
+  defaultSuccessUrl: /web/home
+  failureUrl: /login?error=false
+  logoutUrl: /logout
+  logoutSuccessUrl: /login
+  secret: MD5

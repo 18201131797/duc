@@ -1,12 +1,12 @@
 package com.manager.security;
 
-import com.manager.security.base.UserDetailService;
 import com.manager.source.entity.Role;
 import com.manager.source.entity.User;
 import com.manager.source.entity.UserRole;
 import com.manager.source.service.role.RoleService;
 import com.manager.source.service.role.UserRoleService;
 import com.manager.source.service.user.UserService;
+import com.security.base.UserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
