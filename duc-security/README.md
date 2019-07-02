@@ -3,7 +3,15 @@ Security 工具包
 
 **使用方式**
 
-- 集成 UserDetailService<User> User==系统用户
+- 1.继承 (User == 系统用户)
+```
+     extends UserDetailService<User>
+```
+
+- 2.(系统用户)继承 
+```
+     extends BaseSecurityEntity
+```
 
 **配置**
 ```
@@ -21,8 +29,8 @@ security:
      secret: MD5
 ```
 
-|序号    |名称          |说明  |
-|:----- |:-----       |:---- |
+|序号   |名称                      |说明  |
+|:----- |:-----                    |:---- |
 |0      |security.matchers         |数组：静态资源|
 |1      |security.loginPage        |登录页面地址|
 |2      |security.defaultSuccessUrl|登录成功跳转地址|
@@ -30,3 +38,15 @@ security:
 |4      |security.logoutUrl        |登出地址|
 |5      |security.logoutSuccessUrl |登出成功跳转地址|
 |6      |security.secret           |加密方式：可选，NO不加密，SHA，MD5。默认MD5加密|
+
+**注**
+
+- User == 系统用户 必须要有 
+
+```
+    private String username;
+
+    private String password;
+```
+
+两个属性  和get set方法
