@@ -18,9 +18,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class IndexController extends BaseController {
 
     @GetMapping
-    @ResponseBody
-    public UserSecurity index() {
-        UserSecurity user = findUser();
-        return user;
+    public String index() {
+        return "index";
+    }
+
+    @GetMapping("/welcome")
+    public String welcome() {
+        return "welcome";
     }
 }

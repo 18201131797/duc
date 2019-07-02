@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d3b4a0e-bd34-4b99-bc1a-98a87b3cf2bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/email/Example.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/email/OhMyEmail.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/email/SendMailException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/email/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/email/register.jetx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/echarts.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/templates/base/script.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/templates/welcome.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/duc-core/pom.xml" afterPath="$PROJECT_DIR$/duc-core/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/duc-core/src/main/java/com/core/readme/readme" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/index/IndexController.java" afterPath="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/index/IndexController.java" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/duc-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,111 +45,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BeanMapConvert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/beanConvert/BeanMapConvert.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="-6460">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageUtil.java">
+      <file leaf-file-name="echarts.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/static/js/echarts.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="359">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensitiveWord.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/sensitiveword/SensitiveWord.txt">
+      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensitiveWordInit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/sensitiveword/SensitiveWordInit.java">
+      <file leaf-file-name="script.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/base/script.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="18" column="84" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="84" />
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/email/Example.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2982">
-              <caret line="142" column="23" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendMailException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/email/SendMailException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OhMyEmail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/email/OhMyEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#586#600#0" expanded="true" />
-                <element signature="e#2576#2767#0" expanded="true" />
-                <element signature="e#2766#2767#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/email/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jetx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/email/register.jetx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -160,6 +101,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -185,6 +127,15 @@
       <find>是用</find>
       <find>SensitiveWord</find>
       <find>SMTP_163</find>
+      <find>index/welcome</find>
+      <find>x-iframe</find>
+      <find>welcome1</find>
+      <find>favicon</find>
+      <find>welcome</find>
+      <find>admin</find>
+      <find>echarts</find>
+      <find>src</find>
+      <find>退出</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -221,18 +172,24 @@
         <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/SHAPasswordEncoder.java" />
         <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/AESPasswordEncoder.java" />
         <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/common/DESPasswordEncoder.java" />
-        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/duc-security/README.md" />
         <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/source/entity/User.java" />
         <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/base/BaseController.java" />
         <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/login/LoginController.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/index/IndexController.java" />
-        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/sequence/GenerateSequenceUtil.java" />
         <option value="$PROJECT_DIR$/duc-core/pom.xml" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/email/OhMyEmail.java" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/email/Example.java" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/index/IndexController.java" />
+        <option value="$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/templates/script.html" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/static/js/echarts.min.js" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/templates/base/script.html" />
+        <option value="$PROJECT_DIR$/duc-manager/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -303,57 +260,47 @@
             <path>
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="duc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="email" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duc" type="b2602c69:ProjectViewProjectNode" />
               <item name="duc" type="462c0819:PsiDirectoryNode" />
-              <item name="duc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="duc-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="sensitiveword" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,12 +328,17 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../oh-my-email-master" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\github\duc\duc-manager\src\main\resources\templates\base" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.security.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\github\duc\duc-manager\src\main\resources\templates" />
       <recent name="H:\github\duc\duc-core\src\main\java\com\core\email" />
       <recent name="H:\github\duc\duc-security" />
     </key>
@@ -403,51 +355,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example">
+  <component name="RunManager" selected="Spring Boot.DucManagerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.core.email.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.core.email.Example" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="duc-core" />
-      <envs />
-    </configuration>
-    <configuration name="GenerateSequenceUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.core.sequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.core.sequence.GenerateSequenceUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="duc-core" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -535,18 +449,10 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.DucAdminApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.DucManagerApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GenerateSequenceUtil" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Example" />
     </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Example" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GenerateSequenceUtil" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -564,16 +470,15 @@
       <workItem from="1561969040211" duration="162000" />
       <workItem from="1561969210247" duration="5322000" />
       <workItem from="1562029340386" duration="6414000" />
-      <workItem from="1562036209680" duration="4769000" />
+      <workItem from="1562036209680" duration="10563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16667000" />
+    <option name="totallyTimeSpent" value="22461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -587,18 +492,18 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3249715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32265446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32383123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32383123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -632,46 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecretPasswordEncoder.java" />
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/AESPasswordEncoder.java" />
-    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/DESUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/DESPasswordEncoder.java" />
-    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/EncryptAndDecryptUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/common/SHAPasswordEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -724,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/duc-security/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -740,14 +597,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/index/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/security/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -882,14 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1025,21 +856,127 @@
         <state relative-caret-position="1512">
           <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#586#600#0" expanded="true" />
-            <element signature="e#2576#2767#0" expanded="true" />
-            <element signature="e#2766#2767#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#586#600#0" expanded="false" />
+            <element signature="e#2576#2767#0" expanded="false" />
+            <element signature="e#2766#2767#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/email/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2982">
+        <state relative-caret-position="1533">
           <caret line="142" column="23" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/java/com/manager/controller/index/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.3.1/repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/HeadersConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="63" column="51" lean-forward="false" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+          <folding>
+            <element signature="e#3389#3390#0" expanded="true" />
+            <element signature="e#3438#3439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-security/src/main/java/com/security/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="63" column="48" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/static/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/static/lib/layui/lay/modules/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/base/script.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-manager/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6460">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

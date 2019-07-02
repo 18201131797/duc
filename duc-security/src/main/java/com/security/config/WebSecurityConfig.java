@@ -60,6 +60,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .logoutSuccessUrl(logoutSuccessUrl)//退出之后跳转到注册页面
 
         ;
+
+        http.headers().frameOptions().disable();
         // 关闭CSRF跨域
         http.csrf().disable();
     }
