@@ -103,7 +103,6 @@
             <artifactId>duc-rocketmq</artifactId>
             <version>${duc.version}</version>
         </dependency>
-
     </dependencies>
 
     <build>

@@ -1,6 +1,7 @@
 package com.tkmybatis.base;
 
 import tk.mybatis.mapper.common.Mapper;
+import tk.mybatis.mapper.common.MySqlMapper;
 
 /**
  * @version 1.0.0.0
@@ -9,5 +10,5 @@ import tk.mybatis.mapper.common.Mapper;
  * @date: 2019/5/30 14:05
  */
 
-public interface IBaseMapper<T> extends Mapper<T> {
+public interface IBaseMapper<T> extends Mapper<T>, MySqlMapper<T> {
 }

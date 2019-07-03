@@ -1,5 +1,6 @@
 package com.tkmybatis.base;
 
+import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.session.RowBounds;
 
@@ -172,4 +173,46 @@ public interface IBaseService<T> {
      * @date: 2019/5/30 14:06
      */
     int updateByPrimaryKeySelective(T record);
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 批量插入
+     * @Author: liwt
+     * @date: 2019/7/03 10:54
+     */
+    int insertList(List<T> recordList);
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 插入数据，限制为实体包含`id`属性并且必须为自增列，实体配置的主键策略无效
+     * @Author: liwt
+     * @date: 2019/7/03 10:54
+     */
+    int insertUseGeneratedKeys(T record);
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 分页获取所有数据
+     * @Author: liwt
+     * @date: 2019/7/03 10:06
+     */
+    PageInfo selectPage(Integer pageNum,Integer pageSize,String ... orderBy);
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 根据实体获取分页数据
+     * @Author: liwt
+     * @date: 2019/7/03 10:40
+     */
+    PageInfo selectPageByEntity(T record,Integer pageNum,Integer pageSize,String ... orderBy);
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 根据Example获取分页数据
+     * @Author: liwt
+     * @date: 2019/7/03 10:49
+     */
+    PageInfo selectPageByExample(Object example,Integer pageNum,Integer pageSize,String ... orderBy);
+
+
 }

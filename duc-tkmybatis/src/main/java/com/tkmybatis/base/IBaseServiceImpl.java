@@ -1,5 +1,7 @@
 package com.tkmybatis.base;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.session.RowBounds;
 
 import java.util.List;
@@ -213,5 +215,65 @@ public abstract class IBaseServiceImpl<T> implements IBaseService<T> {
      */
     public int updateByPrimaryKeySelective(T record) {
         return mapper().updateByPrimaryKeySelective(record);
+    }
+
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 批量插入
+     * @Author: liwt
+     * @date: 2019/7/03 10:54
+     */
+    public int insertList(List<T> recordList) {
+        return mapper().insertList(recordList);
+    }
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 插入数据，限制为实体包含`id`属性并且必须为自增列，实体配置的主键策略无效
+     * @Author: liwt
+     * @date: 2019/7/03 10:54
+     */
+    public int insertUseGeneratedKeys(T record) {
+        return mapper().insertUseGeneratedKeys(record);
+    }
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 分页获取所有数据
+     * @Author: liwt
+     * @date: 2019/7/03 10:06
+     */
+    public PageInfo selectPage(Integer pageNum, Integer pageSize, String... orderBy) {
+        PageHelper.startPage(pageNum, pageSize, orderBy.length > 0 ? orderBy[0] : "");
+        List<T> list = mapper().selectAll();
+        PageInfo<T> pageInfo = new PageInfo<T>(list);
+        return pageInfo;
+    }
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 根据实体获取分页数据
+     * @Author: liwt
+     * @date: 2019/7/03 10:40
+     */
+    public PageInfo selectPageByEntity(T record, Integer pageNum, Integer pageSize, String... orderBy) {
+        PageHelper.startPage(pageNum, pageSize, orderBy.length > 0 ? orderBy[0] : "");
+        List<T> list = mapper().select(record);
+        PageInfo<T> pageInfo = new PageInfo<T>(list);
+        return pageInfo;
+    }
+
+    /**
+     * @version 1.0.0.0
+     * @Description: 根据Example获取分页数据
+     * @Author: liwt
+     * @date: 2019/7/03 10:49
+     */
+    public PageInfo selectPageByExample(Object example, Integer pageNum, Integer pageSize, String... orderBy) {
+        PageHelper.startPage(pageNum, pageSize, orderBy.length > 0 ? orderBy[0] : "");
+        List<T> list = mapper().selectByExample(example);
+        PageInfo<T> pageInfo = new PageInfo<T>(list);
+        return pageInfo;
     }
 }

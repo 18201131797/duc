@@ -7,6 +7,7 @@ import com.web.base.BaseController;
 import com.web.result.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.ibatis.session.RowBounds;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -36,7 +37,7 @@ public class TestController extends BaseController {
     @ApiOperation(value = "新增用户1", notes = "新增注册2")
     @GetMapping
     public Result index() {
-        return Result.resultSuccess(10001, studentService.selectAll());
+        return Result.resultSuccess(10001, studentService.selectByRowBounds(null, new RowBounds(1,2)));
     }
 
 
