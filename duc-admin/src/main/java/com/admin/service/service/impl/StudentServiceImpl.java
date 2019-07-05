@@ -19,7 +19,6 @@ import java.util.List;
  * @date: 2019/5/30 9:19
  */
 @Service
-@Component
 public class StudentServiceImpl extends IBaseServiceImpl<Student> implements IStudentService {
 
     @Autowired
