@@ -33,14 +33,14 @@ spring:
     # 是否启用VIP通道，默认打开
     #vip-channel-enabled: false
 
-jedis :
-  pool :
-    host : 127.0.0.1
-    port : 6379
-    config :
-      maxTotal: 100
-      maxIdle: 10
-      maxWaitMillis : 100000
+  redis:
+        host: 127.0.0.1
+        port: 6379
+        password:
+        jedis:
+          pool:
+            max-active: 100
+            max-idle: 10
 
 
 logging:
