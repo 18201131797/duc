@@ -163,6 +163,4 @@ public class NetUtil {
         }
         return address.trim();
     }
-
-
 }

@@ -11,7 +11,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  * @date: 2019/6/21 16:58
  */
 @Data
-@ConfigurationProperties(prefix = "jedis")
+@ConfigurationProperties(prefix = "spring.redis")
 public class Constant {
 
     private String prefix = "duc";

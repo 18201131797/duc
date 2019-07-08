@@ -6,4 +6,4 @@
 
 
 前缀配置
-jedis.prefix: xxx
+redis.prefix: xxx
