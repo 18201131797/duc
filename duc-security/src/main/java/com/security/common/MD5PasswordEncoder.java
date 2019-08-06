@@ -1,6 +1,7 @@
 package com.security.common;
 
 import com.core.encrypt.EncryptAndDecryptUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
@@ -17,8 +18,11 @@ public class MD5PasswordEncoder implements PasswordEncoder {
     }
 
     public boolean matches(CharSequence rawPassword, String encodedPassword) {
+        boolean result = false;
         String encode = EncryptAndDecryptUtils.md5Encrypt(rawPassword.toString());
-        boolean result = encodedPassword.toUpperCase().equals(encode.toUpperCase());
+        if (StringUtils.isNotEmpty(encode)) {
+            result = encodedPassword.toUpperCase().equals(encode.toUpperCase());
+        }
         return result;
     }
 }
