@@ -28,8 +28,6 @@ import java.awt.image.BufferedImage;
  * Writes a {@link com.google.zxing.common.BitMatrix} to {@link java.awt.image.BufferedImage},
  * file or stream. Provided here instead of core since it depends on
  * Java SE libraries.
- *
- * @author Sean Owen
  */
 public final class MatrixToImageWriter {
 

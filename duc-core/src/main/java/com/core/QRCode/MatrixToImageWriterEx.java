@@ -180,5 +180,14 @@ public class MatrixToImageWriterEx {
 			
 		}
 	}
+
+	public static void main(String[] args) {
+		BitMatrix qrCode = MatrixToImageWriterEx.createQRCode("http://www.baidu.com", 300, 300);
+		try {
+			MatrixToImageWriterEx.writeToFile(qrCode,"png","H://test.png","D:\\壁纸\\bz.jpg");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 	
 }
