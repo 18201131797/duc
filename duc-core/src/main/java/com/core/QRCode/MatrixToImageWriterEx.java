@@ -18,6 +18,8 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
 public class MatrixToImageWriterEx {
 
+	private static final int BLACK = 0xFF000000;
+	private static final int WHITE = 0xFFFFFFFF;
 
 	private static final MatrixToLogoImageConfig DEFAULT_CONFIG = new MatrixToLogoImageConfig();
 	
@@ -181,13 +183,25 @@ public class MatrixToImageWriterEx {
 		}
 	}
 
-	public static void main(String[] args) {
-		BitMatrix qrCode = MatrixToImageWriterEx.createQRCode("http://www.baidu.com", 300, 300);
-		try {
-			MatrixToImageWriterEx.writeToFile(qrCode,"png","H://test.png","D:\\壁纸\\bz.jpg");
-		} catch (IOException e) {
-			e.printStackTrace();
+	/**
+	 *@description:matrix转BufferedImage
+	 *
+	 *@param
+	 *@author liwt
+	 *@date 2019/8/17 13:29
+	 *@return
+	 *@version 1.0.1
+	*/
+	public static BufferedImage toBufferedImage(BitMatrix matrix) {
+		int width = matrix.getWidth();
+		int height = matrix.getHeight();
+		BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+		for (int x = 0; x < width; x++) {
+			for (int y = 0; y < height; y++) {
+				image.setRGB(x, y, matrix.get(x, y) ? BLACK : WHITE);
+			}
 		}
+		return image;
 	}
 	
 }
