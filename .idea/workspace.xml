@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d3b4a0e-bd34-4b99-bc1a-98a87b3cf2bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/EscapeUtils.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToImageWriterEx.java" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToImageWriterEx.java" />
+      <change beforePath="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageUtil.java" afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/duc-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,18 +40,28 @@
       <file leaf-file-name="ImageUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="551" column="0" lean-forward="true" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="557" column="25" lean-forward="false" selection-start-line="557" selection-start-column="25" selection-end-line="557" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixToImageWriterEx.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MatrixToLogoImageConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToLogoImageConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixToImageWriterEx.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToImageWriterEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="186" column="39" lean-forward="true" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="39" />
+            <state relative-caret-position="26">
+              <caret line="176" column="48" lean-forward="true" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -69,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EscapeUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EscapeUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/EscapeUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="483">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -131,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src</find>
       <find>退出</find>
       <find>insertList</find>
       <find>example</find>
@@ -161,6 +168,7 @@
       <find>password</find>
       <find>html</find>
       <find>urlencode</find>
+      <find>getPicture</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -221,7 +229,6 @@
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/DESUtils.java" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/Image1Util.kt" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToLogoImageConfig.java" />
-        <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageUtil.java" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/test.java" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageSynthesisUtil.java" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/Image1Util.java" />
@@ -229,6 +236,7 @@
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/base/StringUtils.java" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/EscapeUtils.java" />
         <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToImageWriterEx.java" />
+        <option value="$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageUtil.java" />
       </list>
     </option>
   </component>
@@ -718,12 +726,12 @@
       <workItem from="1565748606022" duration="231000" />
       <workItem from="1565765610839" duration="125000" />
       <workItem from="1565837289324" duration="213000" />
-      <workItem from="1566010897782" duration="5510000" />
+      <workItem from="1566010897782" duration="5669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78727000" />
+    <option name="totallyTimeSpent" value="78886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -951,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToLogoImageConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -1152,26 +1153,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/EscapeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/image/ImageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="551" column="0" lean-forward="true" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="557" column="25" lean-forward="false" selection-start-line="557" selection-start-column="25" selection-end-line="557" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToLogoImageConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/QRCode/MatrixToImageWriterEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="186" column="39" lean-forward="true" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duc-core/src/main/java/com/core/encrypt/EscapeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="26">
+          <caret line="176" column="48" lean-forward="true" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
           <folding />
         </state>
       </provider>

@@ -11,6 +11,7 @@ import java.awt.image.ColorConvertOp;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 
 import javax.imageio.ImageIO;
 
@@ -549,5 +550,26 @@ public class ImageUtil {
         String[] formats = filess[filess.length - 1].split("\\.");
         return formats[formats.length - 1];
      }
+
+
+    /**
+     *@description:下载网络图片
+     *
+     *@param httpUrl 图片地址
+     *@author liwt
+     *@date 2019/8/17 13:32
+     *@return
+     *@version 1.0.1
+    */
+    public static BufferedImage getPicture(String httpUrl) {
+        try {
+            URL url = new URL(httpUrl);
+            BufferedImage img = ImageIO.read(url);
+            return img;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
 }
