@@ -10,6 +10,8 @@ Spring Boot 工具包 -duc
 - [duc-web](https://github.com/18201131797/duc/tree/dev/duc-web) ：web工具包
 - [duc-security](https://github.com/18201131797/duc/tree/dev/duc-security) ：security工具包
 - [duc-admin](https://github.com/18201131797/duc/tree/dev/duc-admin) ：admin 管理后台
+- [duc-mybatisgenerator](https://github.com/18201131797/duc/tree/dev/duc-mybatisgenerator) ：mybatisgenerator 生成器
+
 
 **说明**
 
