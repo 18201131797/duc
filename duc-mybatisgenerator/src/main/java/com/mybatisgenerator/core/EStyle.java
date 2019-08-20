@@ -1,4 +1,4 @@
-package com.mybatisgenerator;
+package com.mybatisgenerator.core;
 
 /**
  * @description:生成样式枚举

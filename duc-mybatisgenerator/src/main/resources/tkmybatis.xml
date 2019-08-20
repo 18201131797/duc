@@ -8,7 +8,7 @@
 
 
     <!--数据库驱动-->
-    <classPathEntry location="${duc.drive.address}"/>
+    <!--<classPathEntry location="${duc.drive.address}"/>-->
     <context id="DB2Tables" targetRuntime="MyBatis3">
 
         <!-- TKmybatis配置 -->
