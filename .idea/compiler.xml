@@ -9,6 +9,7 @@
         <module name="duc-admin" />
         <module name="duc-core" />
         <module name="duc-manager" />
+        <module name="duc-mybatisgenerator" />
         <module name="duc-redis" />
         <module name="duc-rocketmq" />
         <module name="duc-security" />
@@ -22,6 +23,7 @@
       <module name="duc-admin" target="1.8" />
       <module name="duc-core" target="1.8" />
       <module name="duc-manager" target="1.8" />
+      <module name="duc-mybatisgenerator" target="1.8" />
       <module name="duc-redis" target="1.5" />
       <module name="duc-rocketmq" target="1.8" />
       <module name="duc-security" target="1.8" />

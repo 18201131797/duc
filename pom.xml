@@ -18,6 +18,7 @@
         <module>duc-swagger</module>
         <module>duc-rocketmq</module>
         <module>duc-security</module>
+        <module>duc-mybatisgenerator</module>
     </modules>
 
 

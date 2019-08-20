@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/duc-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/duc-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/duc-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/duc-mybatisgenerator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/duc-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/duc-rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/duc-web" charset="UTF-8" />

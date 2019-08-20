@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+		PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+		"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<!--引入外部文件-->
+	<properties resource="conf.properties"/>
+
+	<!--数据库驱动-->
+	<!--<classPathEntry location="${duc.drive.address}"/>-->
+	<context id="DB2Tables" targetRuntime="MyBatis3">
+
+		<commentGenerator type="${duc.comment.code.address}">
+			<property name="suppressDate" value="true"/>
+			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+			<property name="suppressAllComments" value="true"/>
+		</commentGenerator>
+		<!--数据库链接地址账号密码-->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="${duc.db.address}"
+						userId="${duc.db.username}" password="${duc.db.password}"/>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false"/>
+		</javaTypeResolver>
+		<!--生成Model类存放位置-->
+		<javaModelGenerator targetPackage="${duc.model.address}" targetProject="${duc.source.address}">
+			<property name="enableSubPackages" value="true"/>
+			<property name="trimStrings" value="true"/>
+		</javaModelGenerator>
+		<!--生成映射文件存放位置-->
+		<sqlMapGenerator targetPackage="${duc.mapper.address}" targetProject="${duc.source.address}">
+			<property name="enableSubPackages" value="true"/>
+		</sqlMapGenerator>
+		<!--生成Dao类存放位置-->
+		<javaClientGenerator type="XMLMAPPER" targetPackage="${duc.dto.address}" targetProject="${duc.source.address}">
+			<property name="enableSubPackages" value="true"/>
+		</javaClientGenerator>
+		<!--生成对应表及类名-->
+		<table tableName="page_template_item" domainObjectName="PageTemplateItem"
+			   enableCountByExample="false"
+			   enableUpdateByExample="false" enableDeleteByExample="false"
+			   enableSelectByExample="false" selectByExampleQueryId="false">
+		</table>
+	</context>
+</generatorConfiguration>
