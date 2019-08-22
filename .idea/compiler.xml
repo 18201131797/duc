@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="duc-admin" />
         <module name="duc-core" />
-        <module name="duc-manager" />
         <module name="duc-mybatisgenerator" />
         <module name="duc-redis" />
         <module name="duc-rocketmq" />

@@ -62,14 +62,16 @@ public class MyBatisGeneratorRun {
         InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream(conf);
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(resourceAsStream);
-        //设置数据库驱动地址
-        config.addClasspathEntry(driveAddress);
+        if(config.getClassPathEntries().size()==0) {
+            //设置数据库驱动地址
+            config.addClasspathEntry(driveAddress);
+        }
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);
         MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
         myBatisGenerator.generate(null);
 
         System.err.println("------------------------------info-----------------------------");
-        System.err.println("创建成功!");
+        System.err.println("创建成功! 感谢测试! 欢迎下次使用!");
         System.err.println("地址："+this.sourceAddress);
         System.err.println("------------------------------------------------------------------");
     }

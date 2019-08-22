@@ -55,6 +55,12 @@
             <version>5.1.6</version>
         </dependency>
 
+        <!-- 引入thymeleaf模板引擎-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
@@ -74,35 +80,18 @@
             <version>${duc.version}</version>
         </dependency>
 
-        <!--web核心代码-->
-        <dependency>
-            <groupId>com.web</groupId>
-            <artifactId>duc-web</artifactId>
-            <version>${duc.version}</version>
-        </dependency>
-
-        <!--redis核心代码-->
-        <dependency>
-            <groupId>com.redis</groupId>
-            <artifactId>duc-redis</artifactId>
-            <version>${duc.version}</version>
-        </dependency>
 
 
-        <!--swagger核心代码-->
+
+
+        <!--security核心代码-->
         <dependency>
-            <groupId>com.swagger</groupId>
-            <artifactId>duc-swagger</artifactId>
+            <groupId>com.security</groupId>
+            <artifactId>duc-security</artifactId>
             <version>${duc.version}</version>
         </dependency>
 
 
-
-        <dependency>
-            <groupId>com.rocketmq</groupId>
-            <artifactId>duc-rocketmq</artifactId>
-            <version>${duc.version}</version>
-        </dependency>
     </dependencies>
 
     <build>

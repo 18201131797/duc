@@ -4,7 +4,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/duc-manager/pom.xml" />
         <option value="$PROJECT_DIR$/duc-mybatisgenerator/pom.xml" />
       </list>
     </option>
