@@ -26,7 +26,7 @@ public class UserSecurity implements UserDetails {
     }
 
     public String getUsername() {
-        return baseSecurityEntity.getUsername();
+        return baseSecurityEntity.getUserName();
     }
 
     public boolean isAccountNonExpired() {

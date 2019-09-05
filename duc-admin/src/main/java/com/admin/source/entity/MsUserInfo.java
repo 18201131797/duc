@@ -1,10 +1,12 @@
 package com.admin.source.entity;
 
+import com.security.entity.BaseSecurityEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.*;
 
@@ -13,7 +15,10 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "ms_user_info")
-public class MsUserInfo {
+public class MsUserInfo extends BaseSecurityEntity implements Serializable {
+
+    private static final long serialVersionUID = -205538722568919532L;
+
     /**
      * 管理系统用户信息表id
      */

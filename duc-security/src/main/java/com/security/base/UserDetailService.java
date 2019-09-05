@@ -1,6 +1,7 @@
 package com.security.base;
 
 import com.core.log.Logger;
+import com.core.model.ModelUtil;
 import com.security.entity.BaseSecurityEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -42,6 +43,7 @@ public abstract class UserDetailService<T> implements UserDetailsService {
         List<GrantedAuthority> list = new ArrayList<GrantedAuthority>();                    //GrantedAuthority是security提供的权限类，
 
         getRoles(user, list);
+
         UserSecurity userSecurity = new UserSecurity((BaseSecurityEntity) user, list);
         return userSecurity;
     }

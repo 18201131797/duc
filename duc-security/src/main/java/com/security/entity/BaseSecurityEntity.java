@@ -12,9 +12,9 @@ import lombok.Data;
 @Data
 public class BaseSecurityEntity {
 
-    private Long id;
+    private Integer id;
 
-    private String username;
+    private String userName;
 
     private String password;
 }

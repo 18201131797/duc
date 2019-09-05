@@ -17,37 +17,6 @@
         </form>
     </div>
 
-    <script>
-        function post(URL, PARAMS) {
-            var temp = document.createElement("form");
-            temp.action = URL;
-            temp.method = "post";
-            temp.style.display = "none";
-            for (var x in PARAMS) {
-                var opt = document.createElement("textarea");
-                opt.name = x;
-                opt.value = PARAMS[x];
-                // alert(opt.name)
-                temp.appendChild(opt);
-            }
-            document.body.appendChild(temp);
-            temp.submit();
-            return temp;
-        }
-        $(function  () {
-            layui.use('form', function(){
-              var form = layui.form;
-              // layer.msg('玩命卖萌中', function(){
-              //   //关闭后的操作
-              //   });
-              //监听提交
-              form.on('submit(login)', function(data){
-                  post("/manager/login",data.field);
-                return false;
-              });
-            });
-        })
-    </script>
     <!-- 底部结束 -->
 </body>
 </html>

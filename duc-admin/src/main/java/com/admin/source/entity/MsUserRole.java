@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.*;
 
@@ -13,7 +14,10 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "ms_user_role")
-public class MsUserRole {
+public class MsUserRole implements Serializable {
+
+    private static final long serialVersionUID = 8299044420050704583L;
+
     /**
      * 用户角色表id
      */
