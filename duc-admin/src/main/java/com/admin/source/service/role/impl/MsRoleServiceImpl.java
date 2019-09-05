@@ -1,8 +1,8 @@
 package com.admin.source.service.role.impl;
 
-import com.admin.source.entity.Role;
-import com.admin.source.mapper.RoleMapper;
-import com.admin.source.service.role.RoleService;
+import com.admin.source.entity.MsRole;
+import com.admin.source.mapper.MsRoleMapper;
+import com.admin.source.service.role.MsRoleService;
 import com.tkmybatis.base.IBaseMapper;
 import com.tkmybatis.base.IBaseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,13 +15,13 @@ import org.springframework.stereotype.Service;
  * @date: 2019/7/1 12:57
  */
 @Service
-public class RoleServiceImpl extends IBaseServiceImpl<Role> implements RoleService {
+public class MsRoleServiceImpl extends IBaseServiceImpl<MsRole> implements MsRoleService {
 
     @Autowired
-    private RoleMapper roleMapper;
+    private MsRoleMapper msRoleMapper;
 
     @Override
-    protected IBaseMapper<Role> mapper() {
-        return roleMapper;
+    protected IBaseMapper<MsRole> mapper() {
+        return msRoleMapper;
     }
 }

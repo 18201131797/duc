@@ -1,6 +1,6 @@
 package com.admin.source.service.user;
 
-import com.admin.source.entity.User;
+import com.admin.source.entity.MsUserInfo;
 import com.tkmybatis.base.IBaseService;
 
 /**
@@ -10,5 +10,5 @@ import com.tkmybatis.base.IBaseService;
  * @date: 2019/7/1 10:39
  */
 
-public interface UserService extends IBaseService<User> {
+public interface MsUserInfoService extends IBaseService<MsUserInfo> {
 }

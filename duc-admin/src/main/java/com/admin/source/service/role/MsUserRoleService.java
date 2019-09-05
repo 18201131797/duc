@@ -1,6 +1,6 @@
 package com.admin.source.service.role;
 
-import com.admin.source.entity.UserRole;
+import com.admin.source.entity.MsUserRole;
 import com.tkmybatis.base.IBaseService;
 
 /**
@@ -10,5 +10,5 @@ import com.tkmybatis.base.IBaseService;
  * @date: 2019/7/1 13:00
  */
 
-public interface UserRoleService extends IBaseService<UserRole> {
+public interface MsUserRoleService extends IBaseService<MsUserRole> {
 }
