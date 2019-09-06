@@ -1,8 +1,8 @@
 package com.security.base;
 
 import com.core.log.Logger;
-import com.core.model.ModelUtil;
-import com.security.entity.BaseSecurityEntity;
+import com.security.entity.BaseSecurityMenu;
+import com.security.entity.BaseSecurityUserInfo;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -26,13 +26,26 @@ public abstract class UserDetailService<T> implements UserDetailsService {
 
 
     /**
-     * 获取所属角色
+     *@description:获取所属角色
      *
-     * @param user
-     * @param list
-     */
-    protected abstract void getRoles(T user, List<GrantedAuthority> list);
+     *@param
+     *@author liwt
+     *@date 2019/9/6 15:52
+     *@return
+     *@version 1.0.1
+    */
+    protected abstract void getRoles(T user, List<GrantedAuthority> grantedAuthorityList);
 
+    /**
+     *@description:获取用户菜单
+     *
+     *@param
+     *@author liwt
+     *@date 2019/9/5 20:28
+     *@return
+     *@version 1.0.1
+     */
+    protected abstract void getMenu(T user, List<BaseSecurityMenu> baseSecurityMenuList);
 
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         T user = findUserByName(username);
@@ -40,11 +53,17 @@ public abstract class UserDetailService<T> implements UserDetailsService {
             Logger.getLog().error("找不到该账户信息！");
             throw new UsernameNotFoundException("找不到该账户信息！");                    //抛出异常，会根据配置跳到登录失败页面
         }
-        List<GrantedAuthority> list = new ArrayList<GrantedAuthority>();                    //GrantedAuthority是security提供的权限类，
+        List<GrantedAuthority> grantedAuthorityArrayList = new ArrayList<GrantedAuthority>();                    //GrantedAuthority是security提供的权限类，
 
-        getRoles(user, list);
+        //初始化权限
+        getRoles(user, grantedAuthorityArrayList);
 
-        UserSecurity userSecurity = new UserSecurity((BaseSecurityEntity) user, list);
+        List<BaseSecurityMenu> baseSecurityMenuList = new ArrayList<BaseSecurityMenu>();
+
+        //初始化菜单
+        getMenu(user, baseSecurityMenuList);
+
+        UserSecurity userSecurity = new UserSecurity((BaseSecurityUserInfo) user, baseSecurityMenuList, grantedAuthorityArrayList);
         return userSecurity;
     }
 

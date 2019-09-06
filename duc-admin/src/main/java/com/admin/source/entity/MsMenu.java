@@ -1,19 +1,22 @@
 package com.admin.source.entity;
 
+import com.security.entity.BaseSecurityMenu;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
-import javax.persistence.*;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "ms_menu")
-public class MsMenu {
+public class MsMenu extends BaseSecurityMenu {
     /**
      * 目录表id
      */

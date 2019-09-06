@@ -1,6 +1,7 @@
 package com.admin.controller.index;
 
 import com.admin.controller.base.BaseController;
+import com.security.base.UserSecurity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +23,7 @@ public class IndexController extends BaseController {
 
     @GetMapping("/welcome")
     public String welcome() {
+        UserSecurity user = findUser();
         return "welcome";
     }
 }

@@ -1,6 +1,7 @@
 package com.security.base;
 
-import com.security.entity.BaseSecurityEntity;
+import com.security.entity.BaseSecurityMenu;
+import com.security.entity.BaseSecurityUserInfo;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -9,12 +10,17 @@ import java.util.Collection;
 
 @Data
 public class UserSecurity implements UserDetails {
+    //用户权限
     private Collection<? extends GrantedAuthority> getAuthorities;
-    private BaseSecurityEntity baseSecurityEntity;
+    //用户信息
+    private BaseSecurityUserInfo baseSecurityUserInfo;
+    //用户菜单
+    private Collection<? extends BaseSecurityMenu> baseSecurityMenu;
 
-    public UserSecurity(BaseSecurityEntity baseSecurityEntity, Collection<? extends GrantedAuthority> getAuthorities) {
-        this.baseSecurityEntity = baseSecurityEntity;
+    public UserSecurity(BaseSecurityUserInfo baseSecurityUserInfo, Collection<? extends BaseSecurityMenu> baseSecurityMenu, Collection<? extends GrantedAuthority> getAuthorities) {
+        this.baseSecurityUserInfo = baseSecurityUserInfo;
         this.getAuthorities = getAuthorities;
+        this.baseSecurityMenu = baseSecurityMenu;
     }
 
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -22,11 +28,11 @@ public class UserSecurity implements UserDetails {
     }
 
     public String getPassword() {
-        return baseSecurityEntity.getPassword();
+        return baseSecurityUserInfo.getPassword();
     }
 
     public String getUsername() {
-        return baseSecurityEntity.getUserName();
+        return baseSecurityUserInfo.getUserName();
     }
 
     public boolean isAccountNonExpired() {
