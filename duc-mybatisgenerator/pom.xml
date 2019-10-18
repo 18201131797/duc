@@ -39,8 +39,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.tkmbatis</groupId>
-			<artifactId>duc-tkmbatis</artifactId>
+			<groupId>com.tkmybatis</groupId>
+			<artifactId>duc-tkmybatis</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
