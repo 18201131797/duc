@@ -6,25 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="duc-mybatisgenerator" />
-        <module name="duc-swagger" />
-        <module name="duc-web" />
-        <module name="duc-tkmybatis" />
-        <module name="duc-security" />
-        <module name="duc-redis" />
-        <module name="duc-rocketmq" />
         <module name="duc-admin" />
         <module name="duc-core" />
+        <module name="duc-mybatisgenerator" />
+        <module name="duc-redis" />
+        <module name="duc-rocketmq" />
+        <module name="duc-security" />
+        <module name="duc-swagger" />
+        <module name="duc-tkmybatis" />
+        <module name="duc-web" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="duc-admin" options="-parameters" />
-      <module name="duc-core" options="-parameters" />
-      <module name="duc-mybatisgenerator" options="-parameters" />
-      <module name="duc-rocketmq" options="-parameters" />
-      <module name="duc-web" options="-parameters" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="duc" target="1.5" />
+      <module name="duc-admin" target="1.8" />
+      <module name="duc-core" target="1.8" />
+      <module name="duc-mybatisgenerator" target="1.8" />
+      <module name="duc-redis" target="1.5" />
+      <module name="duc-rocketmq" target="1.8" />
+      <module name="duc-security" target="1.8" />
+      <module name="duc-swagger" target="1.5" />
+      <module name="duc-tkmybatis" target="1.5" />
+      <module name="duc-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
