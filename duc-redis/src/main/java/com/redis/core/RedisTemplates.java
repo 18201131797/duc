@@ -1347,7 +1347,6 @@ public class RedisTemplates {
      */
     public <T> List<T> getListCache(final String key, Class<T> targetClass) {
         byte[] result = redisTemplate.execute(new RedisCallback<byte[]>() {
-            @Override
             public byte[] doInRedis(RedisConnection connection) throws DataAccessException {
                 return connection.get(key.getBytes());
             }
@@ -1370,7 +1369,6 @@ public class RedisTemplates {
         final byte[] bkey = key.getBytes();
         final byte[] bvalue = ProtoStuffSerializerUtil.serializeList(objList);
         boolean result = redisTemplate.execute(new RedisCallback<Boolean>() {
-            @Override
             public Boolean doInRedis(RedisConnection connection) throws DataAccessException {
                 connection.setEx(bkey, expireTime, bvalue);
                 return true;
