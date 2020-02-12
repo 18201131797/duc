@@ -7,3 +7,14 @@
 
 前缀配置
 redis.prefix: xxx
+
+yml配置
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 100
+        max-idle: 10
