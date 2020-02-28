@@ -10,6 +10,13 @@
     <name>duc-redis</name>
     <description>duc-redis</description>
 
+    <properties>
+        <java.version>1.8</java.version>
+        <duc.version>1.0.0</duc.version>
+        <!--打包发至github-->
+        <github.global.server>github</github.global.server>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -59,13 +66,16 @@
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
         </dependency>
+
+        <!--核心代码-->
+        <dependency>
+            <groupId>com.core</groupId>
+            <artifactId>duc-core</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
     </dependencies>
 
 
-    <!--打包发至github-->
-    <properties>
-        <github.global.server>github</github.global.server>
-    </properties>
 
 
     <build>
@@ -102,6 +112,14 @@
                         <phase>deploy</phase>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
             </plugin>
 
         </plugins>

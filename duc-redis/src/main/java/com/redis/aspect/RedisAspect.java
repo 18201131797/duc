@@ -2,7 +2,7 @@ package com.redis.aspect;
 
 import com.google.gson.Gson;
 import com.redis.annotation.Cacheable;
-import com.redis.core.RedisConfiguration;
+import com.redis.core.AspectCore;
 import com.redis.core.RedisTemplates;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -27,12 +27,15 @@ import java.util.concurrent.TimeUnit;
 @Aspect
 @Component
 @Slf4j
-public class RedisAspect extends RedisConfiguration {
+public class RedisAspect {
 
     private final int retryCount = 10;
 
     @Autowired
     private RedisTemplates redisTemplates;
+
+    @Autowired
+    private AspectCore aspectCore;
 
 
     @Pointcut("@annotation(com.redis.annotation.Cacheable)")
@@ -41,7 +44,9 @@ public class RedisAspect extends RedisConfiguration {
 
     @Around("aspect()&&@annotation(anno)")
     public Object interceptor(ProceedingJoinPoint invocation, Cacheable anno) {
+
         MethodSignature signature = (MethodSignature) invocation.getSignature();
+
         Method method = signature.getMethod();
         Object result = null;
         String key = "";
@@ -52,11 +57,11 @@ public class RedisAspect extends RedisConfiguration {
                 //key 必填
                 return result;
             }
-            //添加前缀
-            key = redisConstant.getPrefix().concat(":").concat(key);
+            //计算缓存key
+            key = aspectCore.baptismKey(invocation, key);
             value = redisTemplates.get(key);
             Type returnType = method.getGenericReturnType();
-            result = getResult(value, result, returnType);
+            result = getResult(value, returnType);
             if (result == null) {
                 result = getValue(key, invocation);
                 if (StringUtils.isNotBlank(key) && result != null) {
@@ -68,6 +73,7 @@ public class RedisAspect extends RedisConfiguration {
         }
         return result;
     }
+
 
     /**
      * @version 1.0.0.0
@@ -91,9 +97,9 @@ public class RedisAspect extends RedisConfiguration {
     }
 
 
-    public Object getResult(String value, Object result, Type returnType) {
+    public Object getResult(String value, Type returnType) {
         Gson gson = new Gson();
-        result = gson.fromJson(value, returnType);
+        Object result = gson.fromJson(value, returnType);
         return result;
     }
 

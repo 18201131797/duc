@@ -12,9 +12,9 @@ import lombok.Data;
 @Data
 public class BaseSecurityUserInfo {
 
-    private Integer id;
+    private transient  Integer id;
 
-    private String userName;
+    private transient  String userName;
 
-    private String password;
+    private transient  String password;
 }

@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd070149-8aa4-4f55-ae9e-249cbd16b9e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/cache/MsUserInfoChace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duc-core/src/main/java/com/core/base/ObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/core/AspectCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/duc-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/DucAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/DucAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/controller/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/source/entity/MsUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/source/entity/MsUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/source/service/user/MsUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/source/service/user/MsUserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/source/service/user/impl/MsUserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-admin/src/main/java/com/admin/source/service/user/impl/MsUserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/duc-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisDelAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/aspect/RedisDelAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/core/RedisTemplates.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-redis/src/main/java/com/redis/core/RedisTemplates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/BaseSecurityUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/duc-security/src/main/java/com/security/entity/BaseSecurityUserInfo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,19 +25,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="H:/maven/download/apache-maven-3.6.2-bin/apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="H:\maven\download\apache-maven-3.6.2-bin\apache-maven-3.6.2\conf\settings.xml" />
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.2-bin/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.2-bin\apache-maven-3.6.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1XPwBJ2GEVzWnVy040tb6l2B860" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -34,7 +57,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelExportHelper">
+  <component name="RunManager" selected="Spring Boot.DucAdminApplication">
     <configuration name="Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mybatisgenerator.Create" />
       <module name="duc-mybatisgenerator" />
@@ -104,6 +130,8 @@
       <workItem from="1580972070168" duration="3521000" />
       <workItem from="1580977177669" duration="167000" />
       <workItem from="1581336067817" duration="61000" />
+      <workItem from="1582854250755" duration="288000" />
+      <workItem from="1582854545221" duration="19543000" />
     </task>
     <servers />
   </component>

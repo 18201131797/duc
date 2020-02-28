@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="duc-core" />
         <module name="duc-mybatisgenerator" />
+        <module name="duc-swagger" />
         <module name="duc-web" />
         <module name="duc-tkmybatis" />
         <module name="duc-security" />
-        <module name="duc-admin" />
-        <module name="duc-rocketmq" />
-        <module name="duc-swagger" />
         <module name="duc-redis" />
+        <module name="duc-rocketmq" />
+        <module name="duc-admin" />
+        <module name="duc-core" />
       </profile>
     </annotationProcessing>
   </component>
