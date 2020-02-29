@@ -57,15 +57,11 @@ public class RedisTemplates {
      * @param prex
      */
     public void deleteVague(String prex) {
-        if (prex.indexOf("*") > -1) {
-            prex += "*";
-            Set<String> keys = keys(prex);
-            if (!keys.isEmpty()) {
-                delete(keys);
-            }
-            return;
+        prex += "*";
+        Set<String> keys = keys(prex);
+        if (!keys.isEmpty()) {
+            delete(keys);
         }
-        delete(prex);
     }
 
     /**

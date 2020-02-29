@@ -17,17 +17,10 @@ public @interface CacheClean {
 
     /**
      * @version 1.0.0.0
-     * @Description: Constant key
-     * @Author: liwt
-     * @date: 2019/6/5 13:32
-     */
-    String key() default "";
-
-    /**
-     * @version 1.0.0.0
      * @Description: 缓存集合
      * @Author: liwt
      * @date: 2019/6/5 13:32
      */
-    String[] keys() default {};
+    String[] key() default {};
+
 }

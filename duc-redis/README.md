@@ -1,8 +1,9 @@
-使用方式：
+使用方式： 
+key使用 spel表达式
 @Cacheable(key = "xxx#id")
 @CacheClean(key = "xxx**")
 
-默认使用 类名全路径+方法名当做key(Redis和RedisDel同样)
+默认使用 类名全路径+方法名当做key(Redis和RedisClean同样)
 
 
 前缀配置

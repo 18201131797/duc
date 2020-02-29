@@ -2,7 +2,7 @@ package com.redis.aspect;
 
 import com.google.gson.Gson;
 import com.redis.annotation.Cacheable;
-import com.redis.core.AspectCore;
+import com.redis.core.RedisSpElProcessor;
 import com.redis.core.RedisTemplates;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -27,15 +27,12 @@ import java.util.concurrent.TimeUnit;
 @Aspect
 @Component
 @Slf4j
-public class RedisAspect {
+public class RedisAspect extends RedisSpElProcessor {
 
     private final int retryCount = 10;
 
     @Autowired
     private RedisTemplates redisTemplates;
-
-    @Autowired
-    private AspectCore aspectCore;
 
 
     @Pointcut("@annotation(com.redis.annotation.Cacheable)")
@@ -49,16 +46,11 @@ public class RedisAspect {
 
         Method method = signature.getMethod();
         Object result = null;
-        String key = "";
         String value;
+        String key = anno.key();
         try {
-            key = anno.key();
-            if ("".equals(key)) {
-                //key 必填
-                return result;
-            }
             //计算缓存key
-            key = aspectCore.baptismKey(invocation, key);
+            key = generateSpEL(key, invocation);
             value = redisTemplates.get(key);
             Type returnType = method.getGenericReturnType();
             result = getResult(value, returnType);
@@ -69,10 +61,12 @@ public class RedisAspect {
                 }
             }
         } catch (Exception e) {
-            log.error("获取缓存失败：" + key, e);
+            log.error("Cache get failed：" + key, e);
         }
         return result;
     }
+
+
 
 
     /**
