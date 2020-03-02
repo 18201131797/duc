@@ -33,27 +33,30 @@ public class RedisSpElProcessor extends RedisConfiguration {
      * @date 2020/2/29 15:11
      * @version 1.0.1
      */
-    public String generateSpEL(String spELString, ProceedingJoinPoint joinPoint) throws Exception {
-        if (StringUtils.isBlank(spELString)) {
+    public String generateSpEL(String key, String spelKey, ProceedingJoinPoint joinPoint) throws Exception {
+        if (StringUtils.isBlank(spelKey)) {
             throw new Exception("Cache name must not be null");
         }
         try {
             MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
             String[] paramNames = discoverer.getParameterNames(methodSignature.getMethod());
-            Expression expression = parser.parseExpression(spELString);
+            Expression expression = parser.parseExpression(spelKey);
             EvaluationContext context = new StandardEvaluationContext();
             Object[] args = joinPoint.getArgs();
             for (int i = 0; i < args.length; i++) {
                 context.setVariable(paramNames[i], args[i]);
             }
-            spELString = expression.getValue(context).toString();
+            spelKey = expression.getValue(context).toString();
             //自定义前缀
             String prefix = redisConstant.getPrefix();
-            spELString = prefix.concat(":").concat(spELString);
+            if (StringUtils.isNotBlank(key)) {
+                prefix = prefix.concat(":").concat(key);
+            }
+            spelKey = prefix.concat(":").concat(spelKey);
         } catch (Exception e) {
             throw new Exception(e.getMessage());
         }
-        return spELString;
+        return spelKey;
     }
 
 

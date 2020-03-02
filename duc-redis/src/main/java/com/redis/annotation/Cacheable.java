@@ -31,4 +31,15 @@ public @interface Cacheable {
      */
     long timeout() default 30 * 24 * 60 * 60;
 
+    /**
+     *@description:spel表达式
+     *
+     *@param
+     *@author liwt
+     *@date 2020/3/2 16:27
+     *@return
+     *@version 1.0.1
+     */
+    String spelKey() default "";
+
 }

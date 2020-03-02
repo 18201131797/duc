@@ -47,10 +47,10 @@ public class RedisAspect extends RedisSpElProcessor {
         Method method = signature.getMethod();
         Object result = null;
         String value;
-        String key = anno.key();
+        String key = anno.spelKey();
         try {
             //计算缓存key
-            key = generateSpEL(key, invocation);
+            key = generateSpEL(anno.key(), key, invocation);
             value = redisTemplates.get(key);
             Type returnType = method.getGenericReturnType();
             result = getResult(value, returnType);
@@ -65,8 +65,6 @@ public class RedisAspect extends RedisSpElProcessor {
         }
         return result;
     }
-
-
 
 
     /**

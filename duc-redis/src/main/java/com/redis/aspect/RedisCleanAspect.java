@@ -5,6 +5,7 @@ import com.redis.core.RedisSpElProcessor;
 import com.redis.core.RedisTemplates;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -26,8 +27,6 @@ public class RedisCleanAspect extends RedisSpElProcessor {
     @Autowired
     private RedisTemplates redisTemplates;
 
-    @Autowired
-    private RedisSpElProcessor redisSpElProcessor;
 
     @Pointcut("@annotation(com.redis.annotation.CacheClean)")
     public void aspect() {
@@ -46,7 +45,7 @@ public class RedisCleanAspect extends RedisSpElProcessor {
 
             for (String key : keys) {
                 //计算缓存key
-                key = generateSpEL(key, invocation);
+                key = generateSpEL(StringUtils.EMPTY, key, invocation);
                 redisTemplates.deleteVague(key);
             }
         } catch (Exception e) {
