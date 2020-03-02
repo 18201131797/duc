@@ -1,13 +1,12 @@
 package com.admin.security;
 
-import com.admin.source.entity.*;
+import com.admin.source.pojo.entity.*;
 import com.admin.source.service.menu.MsMenuService;
 import com.admin.source.service.menu.MsRoleMenuService;
 import com.admin.source.service.role.MsRoleService;
 import com.admin.source.service.role.MsUserRoleService;
 import com.admin.source.service.user.MsUserInfoService;
 import com.core.enums.EEnable;
-import com.core.model.ModelUtil;
 import com.security.base.UserDetailService;
 import com.security.entity.BaseSecurityMenu;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +15,6 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

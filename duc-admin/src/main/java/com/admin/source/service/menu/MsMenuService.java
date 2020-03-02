@@ -1,6 +1,6 @@
 package com.admin.source.service.menu;
 
-import com.admin.source.entity.MsMenu;
+import com.admin.source.pojo.entity.MsMenu;
 import com.tkmybatis.base.IBaseService;
 
 /**

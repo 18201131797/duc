@@ -1,9 +1,9 @@
 package com.admin.source.service.user;
 
-import com.admin.source.entity.MsUserInfo;
+import com.admin.source.pojo.dto.MsUserInfoDto;
+import com.admin.source.pojo.entity.MsUserInfo;
+import com.github.pagehelper.PageInfo;
 import com.tkmybatis.base.IBaseService;
-
-import java.util.List;
 
 /**
  * @version 1.0.0.0
@@ -23,5 +23,5 @@ public interface MsUserInfoService extends IBaseService<MsUserInfo> {
      *@return
      *@version 1.0.1
      */
-    List<MsUserInfo> pageList();
+    PageInfo pageList(MsUserInfoDto msUserInfoDto);
 }

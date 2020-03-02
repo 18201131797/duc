@@ -1,6 +1,6 @@
 package com.admin.source.cache.user;
 
-import com.admin.source.entity.MsUserInfo;
+import com.admin.source.pojo.entity.MsUserInfo;
 import com.admin.source.mapper.MsUserInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 

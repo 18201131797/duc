@@ -1,19 +1,22 @@
-package com.admin.source.entity;
+package com.admin.source.pojo.dto;
 
+import com.tkmybatis.base.IBaseDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
-import javax.persistence.*;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "ms_role_menu")
-public class MsRoleMenu {
+public class MsRoleMenuDto extends IBaseDto {
     /**
      * 菜单权限表id
      */

@@ -1,14 +1,15 @@
 package com.admin.source.service.user.impl;
 
-import com.admin.source.entity.MsUserInfo;
 import com.admin.source.mapper.MsUserInfoMapper;
+import com.admin.source.pojo.dto.MsUserInfoDto;
+import com.admin.source.pojo.entity.MsUserInfo;
 import com.admin.source.service.user.MsUserInfoService;
+import com.core.model.ModelUtil;
+import com.github.pagehelper.PageInfo;
 import com.tkmybatis.base.IBaseMapper;
 import com.tkmybatis.base.IBaseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * @version 1.0.0.0
@@ -37,7 +38,11 @@ public class MsUserInfoServiceImpl extends IBaseServiceImpl<MsUserInfo> implemen
      *@version 1.0.1
      */
     @Override
-    public List<MsUserInfo> pageList() {
-        return null;
+    public PageInfo pageList(MsUserInfoDto msUserInfoDto) {
+        PageInfo msUserInfoList = selectPageByEntity(ModelUtil.modelToModel(msUserInfoDto, MsUserInfo.class),
+                msUserInfoDto.getPageNum(),
+                msUserInfoDto.getPageSize(),
+                "create_time desc");
+        return msUserInfoList;
     }
 }

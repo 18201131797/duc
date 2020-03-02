@@ -1,6 +1,6 @@
 package com.admin.source.service.role.impl;
 
-import com.admin.source.entity.MsRole;
+import com.admin.source.pojo.entity.MsRole;
 import com.admin.source.mapper.MsRoleMapper;
 import com.admin.source.service.role.MsRoleService;
 import com.tkmybatis.base.IBaseMapper;
