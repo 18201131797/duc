@@ -92,6 +92,21 @@
         </dependency>
 
 
+        <!--web核心代码-->
+        <dependency>
+            <groupId>com.web</groupId>
+            <artifactId>duc-web</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+
+
+
+        <!--redis核心代码-->
+        <dependency>
+            <groupId>com.redis</groupId>
+            <artifactId>duc-redis</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

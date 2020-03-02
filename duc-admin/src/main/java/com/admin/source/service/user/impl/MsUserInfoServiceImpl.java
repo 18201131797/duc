@@ -8,6 +8,8 @@ import com.tkmybatis.base.IBaseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * @version 1.0.0.0
  * @Description:
@@ -23,5 +25,19 @@ public class MsUserInfoServiceImpl extends IBaseServiceImpl<MsUserInfo> implemen
     @Override
     protected IBaseMapper<MsUserInfo> mapper() {
         return msUserInfoMapper;
+    }
+
+    /**
+     *@description:获取系统用户分页
+     *
+     *@param
+     *@author liwt
+     *@date 2020/3/2 14:35
+     *@return
+     *@version 1.0.1
+     */
+    @Override
+    public List<MsUserInfo> pageList() {
+        return null;
     }
 }
