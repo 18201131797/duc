@@ -1,6 +1,6 @@
-package com.admin.source.pojo.dto;
+package com.admin.source.entity;
 
-import com.tkmybatis.base.IBaseDto;
+import com.security.entity.BaseSecurityMenu;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,40 +9,48 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.io.Serializable;
 import java.util.Date;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "ms_user_role")
-public class MsUserRoleDto extends IBaseDto implements Serializable {
-
-    private static final long serialVersionUID = 8299044420050704583L;
-
+@Table(name = "ms_menu")
+public class MsMenu extends BaseSecurityMenu {
     /**
-     * 用户角色表id
+     * 目录表id
      */
     @Id
     private Integer id;
 
     /**
-     * ms_user_info 表 主键
+     * 目录名称
      */
-    @Column(name = "ms_user_id")
-    private Integer msUserId;
+    @Column(name = "menu_name")
+    private String menuName;
 
     /**
-     * ms_role表主键
+     * 排序
      */
-    @Column(name = "ms_role_id")
-    private Integer msRoleId;
+    @Column(name = "menu_sort")
+    private Integer menuSort;
+
+    /**
+     * 菜单地址
+     */
+    @Column(name = "menu_url")
+    private String menuUrl;
 
     /**
      * 备注
      */
     private String remark;
+
+    /**
+     * 父id
+     */
+    @Column(name = "parent_id")
+    private Integer parentId;
 
     /**
      * 公司id
@@ -91,4 +99,6 @@ public class MsUserRoleDto extends IBaseDto implements Serializable {
      */
     @Column(name = "delete_flag")
     private Integer deleteFlag;
+
+
 }

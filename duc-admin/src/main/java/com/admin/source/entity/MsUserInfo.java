@@ -1,7 +1,6 @@
-package com.admin.source.pojo.dto;
+package com.admin.source.entity;
 
 import com.security.entity.BaseSecurityUserInfo;
-import com.tkmybatis.base.IBaseDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,7 +17,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "ms_user_info")
-public class MsUserInfoDto extends IBaseDto implements Serializable {
+public class MsUserInfo extends BaseSecurityUserInfo implements Serializable {
 
     private static final long serialVersionUID = -205538722568919532L;
 

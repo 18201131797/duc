@@ -1,10 +1,11 @@
-package com.admin.source.pojo.entity;
+package com.admin.source.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.*;
 
@@ -12,25 +13,39 @@ import javax.persistence.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "ms_role_menu")
-public class MsRoleMenu {
+@Table(name = "ms_role")
+public class MsRole implements Serializable {
+
+    private static final long serialVersionUID = 817874177240901258L;
+
     /**
-     * 菜单权限表id
+     * 角色表id
      */
     @Id
     private Integer id;
 
     /**
-     * 权限id
+     * 平台标识码
      */
-    @Column(name = "role_id")
-    private Integer roleId;
+    private String platform;
 
     /**
-     * 菜单id
+     * 角色名称
      */
-    @Column(name = "menu_id")
-    private Integer menuId;
+    @Column(name = "role_name")
+    private String roleName;
+
+    /**
+     * 角色描述
+     */
+    @Column(name = "role_desc")
+    private String roleDesc;
+
+    /**
+     * 角色代码
+     */
+    @Column(name = "role_code")
+    private String roleCode;
 
     /**
      * 备注
@@ -84,6 +99,5 @@ public class MsRoleMenu {
      */
     @Column(name = "delete_flag")
     private Integer deleteFlag;
-
 
 }

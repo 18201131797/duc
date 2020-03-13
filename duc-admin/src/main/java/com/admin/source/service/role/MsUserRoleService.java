@@ -1,6 +1,6 @@
 package com.admin.source.service.role;
 
-import com.admin.source.pojo.entity.MsUserRole;
+import com.admin.source.entity.MsUserRole;
 import com.tkmybatis.base.IBaseService;
 
 /**

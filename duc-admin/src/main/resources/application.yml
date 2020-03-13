@@ -53,7 +53,7 @@ logging:
   level:
     com:
       admin:
-        service:
+        source:
           mapper: trace
 
 pagehelper:

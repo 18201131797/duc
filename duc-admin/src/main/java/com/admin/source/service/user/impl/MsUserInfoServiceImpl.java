@@ -1,15 +1,23 @@
 package com.admin.source.service.user.impl;
 
+import com.admin.enums.EDelete;
+import com.admin.enums.EEnable;
+import com.admin.pojo.view.system.MsUserInfoPageListView;
+import com.admin.source.cache.role.MsRoleCache;
+import com.admin.source.cache.user.MsUserInfoCache;
+import com.admin.source.entity.MsRole;
+import com.admin.source.entity.MsUserInfo;
 import com.admin.source.mapper.MsUserInfoMapper;
-import com.admin.source.pojo.dto.MsUserInfoDto;
-import com.admin.source.pojo.entity.MsUserInfo;
 import com.admin.source.service.user.MsUserInfoService;
 import com.core.model.ModelUtil;
 import com.github.pagehelper.PageInfo;
 import com.tkmybatis.base.IBaseMapper;
 import com.tkmybatis.base.IBaseServiceImpl;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @version 1.0.0.0
@@ -23,26 +31,44 @@ public class MsUserInfoServiceImpl extends IBaseServiceImpl<MsUserInfo> implemen
     @Autowired
     private MsUserInfoMapper msUserInfoMapper;
 
+    @Autowired
+    private MsRoleCache msRoleCache;
+
+    @Autowired
+    private MsUserInfoCache msUserInfoCache;
+
     @Override
     protected IBaseMapper<MsUserInfo> mapper() {
         return msUserInfoMapper;
     }
 
+
     /**
-     *@description:获取系统用户分页
+     *@description:分页
      *
      *@param
      *@author liwt
-     *@date 2020/3/2 14:35
+     *@date 2020/3/3 9:36
      *@return
      *@version 1.0.1
      */
     @Override
-    public PageInfo pageList(MsUserInfoDto msUserInfoDto) {
-        PageInfo msUserInfoList = selectPageByEntity(ModelUtil.modelToModel(msUserInfoDto, MsUserInfo.class),
-                msUserInfoDto.getPageNum(),
-                msUserInfoDto.getPageSize(),
-                "create_time desc");
-        return msUserInfoList;
+    public PageInfo pageList(MsUserInfo msUserInfo, Integer page, Integer limit) {
+        msUserInfo.setFlag(EEnable.TRUE.getCode());
+        msUserInfo.setDeleteFlag(EDelete.NODELETE.getCode());
+        PageInfo pageInfo = selectPageByExample(msUserInfoCache.establish(msUserInfo), page, limit);
+        List list = pageInfo.getList();
+        List<MsUserInfoPageListView> msUserInfoPageListViews = ModelUtil.modelToModel(list, MsUserInfoPageListView.class);
+        for (MsUserInfoPageListView item : msUserInfoPageListViews) {
+            List<MsRole> msRoles = msRoleCache.getRoleByUserId(item.getId());
+            StringBuffer roleName = new StringBuffer();
+            msRoles.stream().forEach(m -> roleName.append(m.getRoleName().concat(",")));
+            if(StringUtils.isBlank(roleName)){
+                continue;
+            }
+            item.setRoleName(roleName.deleteCharAt(roleName.length()-1).toString());
+        }
+        pageInfo.setList(msUserInfoPageListViews);
+        return pageInfo;
     }
 }

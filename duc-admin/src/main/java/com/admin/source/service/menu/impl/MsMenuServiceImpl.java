@@ -1,6 +1,6 @@
 package com.admin.source.service.menu.impl;
 
-import com.admin.source.pojo.entity.MsMenu;
+import com.admin.source.entity.MsMenu;
 import com.admin.source.mapper.MsMenuMapper;
 import com.admin.source.service.menu.MsMenuService;
 import com.tkmybatis.base.IBaseMapper;

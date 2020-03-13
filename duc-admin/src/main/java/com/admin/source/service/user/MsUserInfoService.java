@@ -1,7 +1,6 @@
 package com.admin.source.service.user;
 
-import com.admin.source.pojo.dto.MsUserInfoDto;
-import com.admin.source.pojo.entity.MsUserInfo;
+import com.admin.source.entity.MsUserInfo;
 import com.github.pagehelper.PageInfo;
 import com.tkmybatis.base.IBaseService;
 
@@ -15,7 +14,7 @@ import com.tkmybatis.base.IBaseService;
 public interface MsUserInfoService extends IBaseService<MsUserInfo> {
 
     /**
-     *@description:获取系统用户分页
+     *@description:分页获取系统用户
      *
      *@param
      *@author liwt
@@ -23,5 +22,5 @@ public interface MsUserInfoService extends IBaseService<MsUserInfo> {
      *@return
      *@version 1.0.1
      */
-    PageInfo pageList(MsUserInfoDto msUserInfoDto);
+    PageInfo pageList(MsUserInfo msUserInfo, Integer page, Integer limit);
 }

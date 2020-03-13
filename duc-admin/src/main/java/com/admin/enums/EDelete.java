@@ -1,24 +1,23 @@
-package com.core.enums;
-
+package com.admin.enums;
 
 /**
- * @description:是否可用枚举
+ * @description:是否删除枚举
  *
  * @author: liwt
- * @date: 2019/9/6 15:45
+ * @date: 2020/3/3 9:39
  * @version: 1.0.1
  */
-public enum EEnable {
+public enum  EDelete {
 
-    True(1, "可用"),
-    False(0, "停用");
+    NODELETE(1,"未删除"),
+    DELETE(0, "删除");
 
 
     private int code;
 
     private String name;
 
-    EEnable(int code, String name) {
+    EDelete(int code, String name) {
         this.code = code;
         this.name = name;
     }
@@ -38,4 +37,5 @@ public enum EEnable {
     public void setName(String name) {
         this.name = name;
     }
+
 }

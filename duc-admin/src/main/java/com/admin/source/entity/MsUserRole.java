@@ -1,4 +1,4 @@
-package com.admin.source.pojo.entity;
+package com.admin.source.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

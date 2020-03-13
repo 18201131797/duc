@@ -1,6 +1,6 @@
 package com.admin.controller.system;
 
-import com.admin.source.pojo.dto.MsUserInfoDto;
+import com.admin.source.entity.MsUserInfo;
 import com.admin.source.service.user.MsUserInfoService;
 import com.github.pagehelper.PageInfo;
 import com.web.result.Result;
@@ -19,14 +19,14 @@ public class UserInfoController {
     private MsUserInfoService msUserInfoService;
 
     @GetMapping("/list")
-    public String login() {
+    public String list() {
         return "system/admin-list";
     }
 
     @GetMapping("/page-list")
     @ResponseBody
-    public Result pageList(MsUserInfoDto msUserInfoDto) {
-        PageInfo pageInfo = msUserInfoService.pageList(msUserInfoDto);
-        return Result.resultSuccess(10001, pageInfo);
+    public Result pageList(MsUserInfo msUserInfo, Integer page, Integer limit) {
+        PageInfo result = msUserInfoService.pageList(msUserInfo, page, limit);
+        return Result.resultSuccess(10001, result);
     }
 }
