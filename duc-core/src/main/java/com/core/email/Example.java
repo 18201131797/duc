@@ -28,7 +28,7 @@ public class Example {
     static {
         // 配置，一次即可
 
-        OhMyEmail.config(OhMyEmail.SMTP_163(false), "18201131797@163.com", "lwt920526770");
+        OhMyEmail.config(OhMyEmail.SMTP_163(false), "xxx@163.com", "xxx");
         // 如果是企业邮箱则使用下面配置
         //OhMyEmail.config(SMTP_ENT_QQ(false), "xxx@qq.com", "*******");
     }
