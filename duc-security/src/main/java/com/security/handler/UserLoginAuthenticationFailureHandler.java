@@ -21,7 +21,7 @@ import java.io.PrintWriter;
  * 重写 onAuthenticationFailure 方法
  */
 @Component
-public abstract class UserLoginAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
+public class UserLoginAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
 
     @Override
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response,

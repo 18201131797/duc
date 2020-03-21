@@ -21,10 +21,11 @@ import java.io.PrintWriter;
  *  * 重写 onAuthenticationFailure 方法
  */
 @Component
-public abstract class UserLoginAuthenticationSuccessHandler extends SimpleUrlAuthenticationSuccessHandler {
+public class UserLoginAuthenticationSuccessHandler extends SimpleUrlAuthenticationSuccessHandler {
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException {
+
         String result = JSONObject.toJSONString(Result.resultSuccess(20000), SerializerFeature.WriteMapNullValue);
         response.setContentType("application/json;charset=utf-8");
         PrintWriter out = response.getWriter();
