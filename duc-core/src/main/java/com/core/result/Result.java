@@ -65,6 +65,15 @@ public class Result {
     public static Result resultFail() {
         return Result.builder().success(false).build();
     }
+    /**
+     * @version 1.0.0.0
+     * @Description: 返回成功
+     * @Author: liwt
+     * @date: 2019/5/29 17:00
+     */
+    public static Result resultFail(Integer code) {
+        return Result.builder().success(false).msg(getMsg(code)).build();
+    }
 
     /**
      * @version 1.0.0.0

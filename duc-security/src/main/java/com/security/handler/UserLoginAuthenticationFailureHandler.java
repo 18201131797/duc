@@ -27,7 +27,7 @@ public class UserLoginAuthenticationFailureHandler extends SimpleUrlAuthenticati
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response,
                                         AuthenticationException exception) throws IOException {
 
-        String result = JSONObject.toJSONString(Result.resultSuccess(20001), SerializerFeature.WriteMapNullValue);
+        String result = JSONObject.toJSONString(Result.resultFail(20001), SerializerFeature.WriteMapNullValue);
         response.setContentType("application/json;charset=utf-8");
         PrintWriter out = response.getWriter();
         out.write(result);
