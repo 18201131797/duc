@@ -1,7 +1,7 @@
 package com.redis.core;
 
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.DataType;
@@ -291,7 +291,8 @@ public class RedisTemplates {
         if (value instanceof String) {
             v = value.toString();
         } else {
-            v = new Gson().toJson(value);
+
+            v = JSONObject.toJSONString(value);
         }
         redisTemplate.opsForValue().set(key, v, timeout, unit);
     }

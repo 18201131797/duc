@@ -4,6 +4,8 @@ import com.security.base.UserDetailService;
 import com.security.common.MD5PasswordEncoder;
 import com.security.common.NOPasswordEncoder;
 import com.security.common.SHAPasswordEncoder;
+import com.security.handler.UserLoginAuthenticationFailureHandler;
+import com.security.handler.UserLoginAuthenticationSuccessHandler;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -16,6 +18,8 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 
 @Data
 @Configuration
@@ -27,20 +31,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailService userDetailService;
 
+    @Autowired
+    private UserLoginAuthenticationFailureHandler userLoginAuthenticationFailureHandler;//验证失败的处理类
+
+    @Autowired
+    private UserLoginAuthenticationSuccessHandler userLoginAuthenticationSuccessHandler;//验证成功的处理类
+
     //静态资源
     private String[] matchers;
     //登录地址
     private String loginPage;
-    //登录成功跳转地址
-    private String defaultSuccessUrl;
-    //登录失败跳转地址
-    private String failureUrl;
     //登出地址
     private String logoutUrl;
     //登出成功跳转地址
     private String logoutSuccessUrl;
     //加密方式：NO不加密，MD5,SHA。默认MD5
     private String secret;
+
 
     @Override
     protected void configure(HttpSecurity http) throws Exception { http
@@ -50,9 +57,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated() //4
                 .and()
                 .formLogin()
+                .failureHandler(userLoginAuthenticationFailureHandler)//验证失败处理
+                .successHandler(userLoginAuthenticationSuccessHandler)//验证成功处理
+                .usernameParameter("username")//请求验证参数
+                .passwordParameter("password")//请求验证参数
                 .loginPage(loginPage)
-                .defaultSuccessUrl(defaultSuccessUrl)
-                .failureUrl(failureUrl)
                 .permitAll() //登陆页面可任意访问
                 .and()
                 .logout()

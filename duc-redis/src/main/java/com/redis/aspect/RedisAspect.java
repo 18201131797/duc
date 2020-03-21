@@ -1,6 +1,6 @@
 package com.redis.aspect;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import com.redis.annotation.Cacheable;
 import com.redis.core.RedisSpElProcessor;
 import com.redis.core.RedisTemplates;
@@ -90,8 +90,7 @@ public class RedisAspect extends RedisSpElProcessor {
 
 
     public Object getResult(String value, Type returnType) {
-        Gson gson = new Gson();
-        Object result = gson.fromJson(value, returnType);
+        Object result = JSONObject.parseObject(value,returnType);
         return result;
     }
 

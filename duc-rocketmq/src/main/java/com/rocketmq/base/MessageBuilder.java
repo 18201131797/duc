@@ -1,6 +1,6 @@
 package com.rocketmq.base;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import com.rocketmq.annotation.MQKey;
 import com.rocketmq.enums.DelayTimeLevel;
 import lombok.Data;
@@ -22,8 +22,6 @@ import java.nio.charset.Charset;
 @Data
 @Slf4j
 public class MessageBuilder {
-
-    private static Gson gson = new Gson();
 
     private static final String[] DELAY_ARRAY = "1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h".split(" ");
 
@@ -85,7 +83,7 @@ public class MessageBuilder {
         } catch (Exception e) {
             log.error("parse key error : {}" , e.getMessage());
         }
-        String str = gson.toJson(message);
+        String str = JSONObject.toJSONString(message);
         if(StringUtils.isEmpty(topic)) {
             if(StringUtils.isEmpty(getTopic())) {
                 throw new RuntimeException("no topic defined to send this message");

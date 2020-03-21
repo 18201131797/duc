@@ -1,5 +1,6 @@
-package com.web.result;
+package com.core.result;
 
+import com.alibaba.fastjson.JSONObject;
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.util.ResourceUtils;
@@ -128,5 +129,9 @@ public class Result {
         isr.close();
         fis.close();
         return map;
+    }
+
+    public static void main(String[] args) {
+        System.out.printf(JSONObject.toJSONString(Result.resultSuccess(10000)));
     }
 }

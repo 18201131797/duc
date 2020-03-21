@@ -1,10 +1,9 @@
 package com.web.filter;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
+import com.core.result.Result;
 import com.web.jwt.Jwt;
 import com.web.jwt.TokenState;
-import com.web.result.Result;
-import net.minidev.json.JSONObject;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -35,7 +34,7 @@ public class JwtFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         String path = request.getRequestURI().substring(request.getContextPath().length()).replaceAll("[/]+$", "");
         boolean allowedPath = ALLOWED_PATHS.contains(path);
-        if(allowedPath){
+        if (allowedPath) {
             filterChain.doFilter(request, response);
         }
         //其他API接口一律校验token
@@ -55,9 +54,9 @@ public class JwtFilter implements Filter {
             case EXPIRED:
             case INVALID:
                 System.out.println("无效token");
-                //token过期或者无效，则输出错误信息返回给ajax
-                Gson gson = new Gson();
-                String result = gson.toJson(Result.result(false, 10000));
+                //token过期或者无效，则输出错误信息返回给ajaxR
+
+                String result = JSONObject.toJSONString(Result.result(false, 10000));
                 output(result, response);
                 break;
         }
