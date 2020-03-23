@@ -45,7 +45,7 @@ public class RedisCleanAspect extends RedisSpElProcessor {
 
             for (String key : keys) {
                 //计算缓存key
-                key = generateSpEL(StringUtils.EMPTY, key, invocation);
+                key = generateSpEL(key, StringUtils.EMPTY, invocation);
                 redisTemplates.deleteVague(key);
             }
         } catch (Exception e) {
