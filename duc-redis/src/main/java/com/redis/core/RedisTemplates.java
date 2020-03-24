@@ -2,6 +2,7 @@ package com.redis.core;
 
 
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.DataType;
@@ -292,7 +293,7 @@ public class RedisTemplates {
             v = value.toString();
         } else {
 
-            v = JSONObject.toJSONString(value);
+            v = JSONObject.toJSONString(value, SerializerFeature.WriteMapNullValue);
         }
         redisTemplate.opsForValue().set(key, v, timeout, unit);
     }
