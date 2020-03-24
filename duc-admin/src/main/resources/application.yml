@@ -72,8 +72,6 @@ security:
   matchers[4]: /lib/**
   matchers[5]: /layui/**
   loginPage: /login
-  defaultSuccessUrl: /index
-  failureUrl: /login?error=false
   logoutUrl: /logout
   logoutSuccessUrl: /login
   secret: MD5

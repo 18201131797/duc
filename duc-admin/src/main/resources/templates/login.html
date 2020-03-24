@@ -3,19 +3,21 @@
 <head th:include="base/script :: script"/>
 <body class="login-bg">
 
+
 <div class="login layui-anim layui-anim-up">
-    <div class="message">duc</div>
+    <div class="message">股市有风险,投资需谨慎</div>
     <div id="darkbannerwrap"></div>
 
-    <form method="post" class="layui-form">
-        <input name="username" placeholder="用户名" type="text" lay-verify="required" class="layui-input">
+    <div class="layui-form">
+        <input name="username" id="username" placeholder="用户名" type="text" class="layui-input">
         <hr class="hr15">
-        <input name="password" lay-verify="required" placeholder="密码" type="password" class="layui-input">
+        <input name="password" id="password" placeholder="密码" type="password" class="layui-input">
         <hr class="hr15">
-        <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
+        <input value="登录" lay-submit lay-filter="login" style="width:100%;" id="submit" type="submit">
         <hr class="hr20">
-    </form>
+    </div>
 </div>
+
 
 <!-- 底部结束 -->
 </body>
@@ -23,6 +25,7 @@
 
     //layui模块的定义
     layui.use(['notice'], function () {
+        var $ = layui.$;
         var notice = layui.notice;
 
         // 初始化配置，同一样式只需要配置一次，非必须初始化，有默认配置
@@ -41,9 +44,25 @@
         };
 
 
-        if (getQueryString("error") == "false") {
-            notice.error("用户名或密码输入有误！");
-        }
+        $("#submit").click(function () {
+            var username = $("#username").val();
+            var password = $("#password").val();
+            $.post("login", {"username": username, "password": password}, function (result) {
+                if(result.success){
+                    window.location.href="index";
+                }else{
+                    notice.error("用户名或密码输入有误！");
+                }
+            });
+        });
+
+        //回车事件绑定
+        $("body").bind('keyup', function(event) {
+            if (event.keyCode == "13") {
+                //回车执行查询
+                $('#submit').click();
+            }
+        });
     });
 
 </script>
