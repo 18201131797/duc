@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description:实体与实体转换
+ * @description:实体与实体转换  [不完全深克隆，属性深克隆，对象浅克隆]
  *
  * @author: liwt
  * @date: 2019/8/5 19:24
