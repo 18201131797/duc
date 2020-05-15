@@ -5,6 +5,7 @@ import com.admin.source.entity.MsRole;
 import com.admin.source.entity.MsUserRole;
 import com.admin.source.mapper.MsRoleMapper;
 import com.admin.source.mapper.MsUserRoleMapper;
+import com.redis.annotation.CacheClean;
 import com.redis.annotation.Cacheable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -28,6 +29,18 @@ public class MsRoleCache {
     @Autowired
     private MsRoleMapper msRoleMapper;
 
+    @Cacheable(key = "teeeeeecc-123",spelKey = "#id")
+    public String test1(String id){
+        return "cdteeeeeecc";
+    }
+    @CacheClean(key = {"teeeeeecc-123","teeeeeecc-568"})
+    public void test2(){}
+
+
+    @Cacheable(key = "teeeeeecc-568",spelKey = "#id")
+    public String test3(String id){
+        return "cdteeeeeecc";
+    }
 
     /**
      *@description:根据用户id获取用火角色

@@ -2,6 +2,7 @@ package com.redis.aspect;
 
 import com.alibaba.fastjson.JSONObject;
 import com.redis.annotation.Cacheable;
+import com.redis.core.RedisKeysProcessor;
 import com.redis.core.RedisSpElProcessor;
 import com.redis.core.RedisTemplates;
 import lombok.extern.slf4j.Slf4j;
@@ -32,6 +33,9 @@ public class RedisAspect extends RedisSpElProcessor {
     private final int retryCount = 10;
 
     @Autowired
+    private RedisKeysProcessor redisKeysProcessor;
+
+    @Autowired
     private RedisTemplates redisTemplates;
 
 
@@ -57,7 +61,7 @@ public class RedisAspect extends RedisSpElProcessor {
             if (result == null) {
                 result = getValue(key, invocation);
                 if (StringUtils.isNotBlank(key) && result != null) {
-                    redisTemplates.setEx(key, result, anno.timeout(), TimeUnit.SECONDS);
+                    redisKeysProcessor.setEx(anno.key(), key, result, anno.timeout(), TimeUnit.SECONDS);
                 }
             }
         } catch (Exception e) {
@@ -90,10 +94,11 @@ public class RedisAspect extends RedisSpElProcessor {
 
 
     public Object getResult(String value, Type returnType) {
-        Object result = JSONObject.parseObject(value,returnType);
-        return result;
+        if (returnType.getTypeName().equals(String.class.getTypeName())) {
+            return value;
+        }
+        return JSONObject.parseObject(value, returnType);
     }
-
     /**
      * @version 1.0.0.0
      * @Description: 自增缓存并设置过期时间

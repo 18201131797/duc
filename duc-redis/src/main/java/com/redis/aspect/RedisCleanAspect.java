@@ -1,6 +1,7 @@
 package com.redis.aspect;
 
 import com.redis.annotation.CacheClean;
+import com.redis.core.RedisKeysProcessor;
 import com.redis.core.RedisSpElProcessor;
 import com.redis.core.RedisTemplates;
 import lombok.SneakyThrows;
@@ -25,7 +26,7 @@ import org.springframework.stereotype.Component;
 public class RedisCleanAspect extends RedisSpElProcessor {
 
     @Autowired
-    private RedisTemplates redisTemplates;
+    private RedisKeysProcessor redisKeysProcessor;
 
 
     @Pointcut("@annotation(com.redis.annotation.CacheClean)")
@@ -46,7 +47,8 @@ public class RedisCleanAspect extends RedisSpElProcessor {
             for (String key : keys) {
                 //计算缓存key
                 key = generateSpEL(key, StringUtils.EMPTY, invocation);
-                redisTemplates.deleteVague(key);
+                //删除缓存是根据@Cacheable的key删的，跟spelKey无关
+                redisKeysProcessor.deletes(key);
             }
         } catch (Exception e) {
             log.error("Cache delete failed：", e);

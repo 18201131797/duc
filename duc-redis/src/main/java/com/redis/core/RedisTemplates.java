@@ -53,19 +53,6 @@ public class RedisTemplates {
     }
 
     /**
-     * 模糊删除
-     *
-     * @param prex
-     */
-    public void deleteVague(String prex) {
-        prex += "*";
-        Set<String> keys = keys(prex);
-        if (!keys.isEmpty()) {
-            delete(keys);
-        }
-    }
-
-    /**
      * 序列化key
      *
      * @param key
