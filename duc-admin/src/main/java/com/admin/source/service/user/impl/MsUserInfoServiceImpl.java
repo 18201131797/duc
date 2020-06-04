@@ -13,6 +13,7 @@ import com.core.model.ModelUtil;
 import com.github.pagehelper.PageInfo;
 import com.tkmybatis.base.IBaseMapper;
 import com.tkmybatis.base.IBaseServiceImpl;
+import com.tkmybatis.page.PageHelper;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -56,19 +57,26 @@ public class MsUserInfoServiceImpl extends IBaseServiceImpl<MsUserInfo> implemen
     public PageInfo pageList(MsUserInfo msUserInfo, Integer page, Integer limit) {
         msUserInfo.setFlag(EEnable.TRUE.getCode());
         msUserInfo.setDeleteFlag(EDelete.NODELETE.getCode());
-        PageInfo pageInfo = selectPageByExample(msUserInfoCache.establish(msUserInfo), page, limit);
-        List list = pageInfo.getList();
-        List<MsUserInfoPageListView> msUserInfoPageListViews = ModelUtil.modelToModel(list, MsUserInfoPageListView.class);
-        for (MsUserInfoPageListView item : msUserInfoPageListViews) {
-            List<MsRole> msRoles = msRoleCache.getRoleByUserId(item.getId());
-            StringBuffer roleName = new StringBuffer();
-            msRoles.stream().forEach(m -> roleName.append(m.getRoleName().concat(",")));
-            if(StringUtils.isBlank(roleName)){
-                continue;
+
+        MsUserInfoPageListView msUserInfoPageListView = ModelUtil.modelToModel(msUserInfo, MsUserInfoPageListView.class);
+        msUserInfoPageListView.setPageNum(page);
+        msUserInfoPageListView.setPageSize(limit);
+        PageInfo<?> condition = new PageHelper(msUserInfoPageListView).condition(() -> {
+
+            List<MsUserInfo> msUserInfos = selectByExample(msUserInfoCache.establish(msUserInfo));
+            List<MsUserInfoPageListView> msUserInfoPageListViews = ModelUtil.modelToModel(msUserInfos, MsUserInfoPageListView.class);
+            for (MsUserInfoPageListView item : msUserInfoPageListViews) {
+                List<MsRole> msRoles = msRoleCache.getRoleByUserId(item.getId());
+                StringBuffer roleName = new StringBuffer();
+                msRoles.stream().forEach(m -> roleName.append(m.getRoleName().concat(",")));
+                if (StringUtils.isBlank(roleName)) {
+                    continue;
+                }
+                item.setRoleName(roleName.deleteCharAt(roleName.length() - 1).toString());
             }
-            item.setRoleName(roleName.deleteCharAt(roleName.length()-1).toString());
-        }
-        pageInfo.setList(msUserInfoPageListViews);
-        return pageInfo;
+            return msUserInfos;
+        });
+
+        return condition;
     }
 }

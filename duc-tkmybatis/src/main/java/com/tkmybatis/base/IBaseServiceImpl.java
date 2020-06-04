@@ -238,42 +238,4 @@ public abstract class IBaseServiceImpl<T> implements IBaseService<T> {
         return mapper().insertUseGeneratedKeys(record);
     }
 
-    /**
-     * @version 1.0.0.0
-     * @Description: 分页获取所有数据
-     * @Author: liwt
-     * @date: 2019/7/03 10:06
-     */
-    public PageInfo selectPage(Integer pageNum, Integer pageSize, String... orderBy) {
-        PageHelper.startPage(pageNum, pageSize, orderBy.length > 0 ? orderBy[0] : "");
-        List<T> list = mapper().selectAll();
-        PageInfo<T> pageInfo = new PageInfo<T>(list);
-        return pageInfo;
-    }
-
-    /**
-     * @version 1.0.0.0
-     * @Description: 根据实体获取分页数据
-     * @Author: liwt
-     * @date: 2019/7/03 10:40
-     */
-    public PageInfo selectPageByEntity(T record, Integer pageNum, Integer pageSize, String... orderBy) {
-        PageHelper.startPage(pageNum, pageSize, orderBy.length > 0 ? orderBy[0] : "");
-        List<T> list = mapper().select(record);
-        PageInfo<T> pageInfo = new PageInfo<T>(list);
-        return pageInfo;
-    }
-
-    /**
-     * @version 1.0.0.0
-     * @Description: 根据Example获取分页数据
-     * @Author: liwt
-     * @date: 2019/7/03 10:49
-     */
-    public PageInfo selectPageByExample(Object example, Integer pageNum, Integer pageSize, String... orderBy) {
-        PageHelper.startPage(pageNum, pageSize, orderBy.length > 0 ? orderBy[0] : "");
-        List<T> list = mapper().selectByExample(example);
-        PageInfo<T> pageInfo = new PageInfo<T>(list);
-        return pageInfo;
-    }
 }

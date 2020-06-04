@@ -1,5 +1,6 @@
 package com.admin.pojo.view.system;
 
+import com.tkmybatis.base.IBaseDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,7 +21,7 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class MsUserInfoPageListView {
+public class MsUserInfoPageListView extends IBaseDto {
 
 
     /**

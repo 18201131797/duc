@@ -190,29 +190,4 @@ public interface IBaseService<T> {
      */
     int insertUseGeneratedKeys(T record);
 
-    /**
-     * @version 1.0.0.0
-     * @Description: 分页获取所有数据
-     * @Author: liwt
-     * @date: 2019/7/03 10:06
-     */
-    PageInfo selectPage(Integer pageNum,Integer pageSize,String ... orderBy);
-
-    /**
-     * @version 1.0.0.0
-     * @Description: 根据实体获取分页数据
-     * @Author: liwt
-     * @date: 2019/7/03 10:40
-     */
-    PageInfo selectPageByEntity(T record,Integer pageNum,Integer pageSize,String ... orderBy);
-
-    /**
-     * @version 1.0.0.0
-     * @Description: 根据Example获取分页数据
-     * @Author: liwt
-     * @date: 2019/7/03 10:49
-     */
-    PageInfo selectPageByExample(Object example,Integer pageNum,Integer pageSize,String ... orderBy);
-
-
 }
