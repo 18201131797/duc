@@ -14,6 +14,7 @@ redissonLock.unlock("lock");
 redisson.prefix: xxx
 
 yml配置
+```
 ########################################################################
 #
 #     redisson单机配置
@@ -69,3 +70,4 @@ spring:
     type: masterslave
     password:
     database: 1
+```
