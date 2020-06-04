@@ -1,5 +1,5 @@
 使用方式： 
-
+```
 非注解
 @Autowired
 RedissonLock redissonLock;
@@ -12,7 +12,7 @@ redissonLock.unlock("lock");
 
 前缀配置
 redisson.prefix: xxx
-
+```
 yml配置
 ```
 ########################################################################
