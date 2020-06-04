@@ -11,6 +11,7 @@ Spring Boot 工具包 -duc
 - [duc-security](https://github.com/18201131797/duc/tree/dev/duc-security) ：security工具包
 - [duc-admin](https://github.com/18201131797/duc/tree/dev/duc-admin) ：admin 管理后台
 - [duc-mybatisgenerator](https://github.com/18201131797/duc/tree/dev/duc-mybatisgenerator) ：mybatisgenerator 生成器
+- [duc-redisson](https://github.com/18201131797/duc/tree/dev/duc-redisson) ：redisson 分布式锁
 
 
 **说明**
@@ -27,3 +28,4 @@ Spring Boot 工具包 -duc
 |7      |duc-rocketmq         |v1.0.0|rocketmq的封裝|
 |8      |duc-security         |v1.0.0|security的封裝|
 |9      |duc-mybatisgenerator |v1.0.0|mybatis代码生成器支持mybatis和tkmybatis|
+|10     |duc-redisson         |v1.0.0|redisson分布式锁|
