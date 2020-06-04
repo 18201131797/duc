@@ -19,6 +19,7 @@
         <module>duc-rocketmq</module>
         <module>duc-security</module>
         <module>duc-mybatisgenerator</module>
+        <module>duc-redisson</module>
     </modules>
 
 

@@ -48,6 +48,12 @@ spring:
             max-active: 100
             max-idle: 10
 
+  redisson:
+    address: 127.0.0.1:6379
+    type: standalone
+    password:
+    database: 1
+
 
 logging:
   level:

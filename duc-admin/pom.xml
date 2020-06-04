@@ -107,6 +107,13 @@
             <artifactId>duc-redis</artifactId>
             <version>${duc.version}</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>com.redisson</groupId>
+            <artifactId>duc-redisson</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

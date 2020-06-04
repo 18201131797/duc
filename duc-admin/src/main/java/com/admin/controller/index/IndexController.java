@@ -2,7 +2,10 @@ package com.admin.controller.index;
 
 import com.admin.controller.base.BaseController;
 import com.admin.source.cache.role.MsRoleCache;
+import com.redisson.RedissonLock;
+import com.redisson.annotation.DistributedLock;
 import com.security.base.UserSecurity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,9 +30,12 @@ public class IndexController extends BaseController {
         return "index";
     }
 
+
+    @Autowired
+    RedissonLock redissonLock;
     @GetMapping("/welcome")
     public String welcome() {
-
+        redissonLock.lock("lock", 10L);
         msRoleCache.test1("1");
         msRoleCache.test1("2");
         msRoleCache.test1("3");
@@ -38,6 +44,7 @@ public class IndexController extends BaseController {
         msRoleCache.test2();
 
         UserSecurity user = findUser();
+        redissonLock.unlock("lock");
         return "welcome";
     }
 }
