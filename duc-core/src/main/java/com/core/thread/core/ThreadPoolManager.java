@@ -102,7 +102,7 @@ public class ThreadPoolManager {
     /*
      * 向线程池中添加任务方法
      */
-    private void addExecuteTask(Runnable task) {
+    public void addExecuteTask(Runnable task) {
         if (null != task) {
             mThreadPool.execute(task);
         }
