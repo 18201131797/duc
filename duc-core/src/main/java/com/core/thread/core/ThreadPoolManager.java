@@ -1,9 +1,8 @@
 package com.core.thread.core;
 
-import java.math.BigDecimal;
-import java.util.LinkedList;
-import java.util.Objects;
-import java.util.Queue;
+import com.alibaba.fastjson.JSONObject;
+
+import java.util.*;
 import java.util.concurrent.*;
 
 public class ThreadPoolManager {
@@ -12,13 +11,13 @@ public class ThreadPoolManager {
 
 
     // 线程池维护线程的最少数量
-    private static final int SIZE_CORE_POOL = 3;
+    private static final int SIZE_CORE_POOL = 0;
 
     // 线程池维护线程的最大数量
     private int SIZE_MAX_POOL = PoolSizeCalculator.CPUConcentrated();
 
     // 线程池维护线程所允许的空闲时间
-    private static final int TIME_KEEP_ALIVE = 5000;
+    private static final int TIME_KEEP_ALIVE = 5;
 
     // 线程池所使用的缓冲队列大小
     private static final int SIZE_WORK_QUEUE = 500;
@@ -52,9 +51,14 @@ public class ThreadPoolManager {
     private final Runnable mAccessBufferThread = new Runnable() {
         @Override
         public void run() {
-            if (hasMoreAcquire()) {
+
+            for (int i = 0; i < SIZE_MAX_POOL; i++) {
+                if (!hasMoreAcquire()) {
+                    break;
+                }
                 mThreadPool.execute(Objects.requireNonNull(mTaskQueue.poll()));
             }
+
         }
     };
 
@@ -103,6 +107,7 @@ public class ThreadPoolManager {
             mThreadPool.execute(task);
         }
     }
+
     protected boolean isTaskEnd() {
         if (mThreadPool.getActiveCount() == 0) {
             return true;
@@ -117,33 +122,32 @@ public class ThreadPoolManager {
     }
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
+        Set<String> set = new HashSet<>();
 
+        System.out.println("num:" + Thread.activeCount());
         ThreadPoolManager threadPoolManager = ThreadPoolManager.newInstance();
-        for (int i = 0; i < 2000; i++) {
-            int finalI = i;
-            int finalI1 = i;
-            threadPoolManager.addExecuteTask(() -> {
-                System.out.println(finalI1);
-            });
+        for (int j = 0; j < 3; j++) {
+            new Thread(() -> {
+                CountDownLatch count = new CountDownLatch(600);
+                for (int i = 0; i < 600; i++) {
+                    int finalI = i;
+                    int finalI1 = i;
+                    threadPoolManager.addExecuteTask(() -> {
+                        set.add(Thread.currentThread().getId() + "");
+                        System.out.println(finalI1);
+                        count.countDown();
+                    });
 
+                }
+                try {
+                    count.await();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
         }
-        System.out.println("tetsdf\t"+threadPoolManager.mTaskQueue.size());
-        CountDownLatch count = new CountDownLatch(20);
-        for (int i = 0; i < 20; i++) {
-            int finalI = i;
-            int finalI1 = i;
-            threadPoolManager.addExecuteTask(() -> {
-                System.out.println(finalI1);
-                count.countDown();
-            });
-
-        }
-        count.await();
-        System.out.println("\t"+threadPoolManager.SIZE_MAX_POOL);
-
-
-
-
-        threadPoolManager.shutdown();
+        Thread.sleep(10000);
+        System.out.println("num:" + Thread.activeCount());
+        System.out.println(JSONObject.toJSONString(set));
     }
 }
