@@ -25,6 +25,7 @@ public class Result {
     private boolean success;
     private String msg;
     private Object data;
+    private Integer code;
 
     /**
      * @version 1.0.0.0
@@ -43,7 +44,7 @@ public class Result {
      * @date: 2019/5/29 17:00
      */
     public static Result resultSuccess(Integer code, Object data) {
-        return Result.builder().success(true).msg(getMsg(code)).data(data).build();
+        return Result.builder().success(true).msg(getMsg(code)).code(code).data(data).build();
     }
 
     /**
@@ -53,7 +54,7 @@ public class Result {
      * @date: 2019/5/29 17:00
      */
     public static Result resultSuccess(Integer code) {
-        return Result.builder().success(true).msg(getMsg(code)).build();
+        return Result.builder().success(true).code(code).msg(getMsg(code)).build();
     }
 
     /**
@@ -72,7 +73,7 @@ public class Result {
      * @date: 2019/5/29 17:00
      */
     public static Result resultFail(Integer code) {
-        return Result.builder().success(false).msg(getMsg(code)).build();
+        return Result.builder().success(false).code(code).msg(getMsg(code)).build();
     }
 
     /**
@@ -82,7 +83,7 @@ public class Result {
      * @date: 2019/5/29 17:00
      */
     public static Result result(boolean success, Integer code, Object data) {
-        return Result.builder().success(success).msg(getMsg(code)).data(data).build();
+        return Result.builder().success(success).code(code).msg(getMsg(code)).data(data).build();
     }
 
     /**
@@ -92,7 +93,7 @@ public class Result {
      * @date: 2019/5/29 17:00
      */
     public static Result result(boolean success, Integer code) {
-        return Result.builder().success(success).msg(getMsg(code)).build();
+        return Result.builder().success(success).code(code).msg(getMsg(code)).build();
     }
 
 
