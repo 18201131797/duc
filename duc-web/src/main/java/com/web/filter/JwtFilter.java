@@ -37,6 +37,7 @@ public class JwtFilter implements Filter {
         boolean allowedPath = ALLOWED_PATHS.contains(path);
         if (allowedPath) {
             filterChain.doFilter(request, response);
+            return;
         }
         //其他API接口一律校验token
         System.out.println("开始校验token");
