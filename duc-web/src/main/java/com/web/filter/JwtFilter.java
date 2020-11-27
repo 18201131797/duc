@@ -1,6 +1,7 @@
 package com.web.filter;
 
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.core.result.Result;
 import com.web.jwt.Jwt;
 import com.web.jwt.TokenState;
@@ -56,7 +57,7 @@ public class JwtFilter implements Filter {
                 System.out.println("无效token");
                 //token过期或者无效，则输出错误信息返回给ajaxR
 
-                String result = JSONObject.toJSONString(Result.result(false, 10000));
+                String result = JSONObject.toJSONString(Result.result(false, 10000), SerializerFeature.WriteMapNullValue);
                 output(result, response);
                 break;
         }
