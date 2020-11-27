@@ -24,7 +24,7 @@ public class JwtFilter implements Filter {
 
     //允许通过的url
     private static final Set<String> ALLOWED_PATHS = Collections.unmodifiableSet(new HashSet<>(
-            Arrays.asList("/index")));
+            Arrays.asList("/login")));
 
 
     @Override
