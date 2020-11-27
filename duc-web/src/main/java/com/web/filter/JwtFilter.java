@@ -5,6 +5,9 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.core.result.Result;
 import com.web.jwt.Jwt;
 import com.web.jwt.TokenState;
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -12,7 +15,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.*;
+import java.util.Map;
+import java.util.stream.Stream;
 
 /**
  * @version 1.0.0.0
@@ -20,22 +24,24 @@ import java.util.*;
  * @Author: liwt
  * @date: 2019/5/29 15:27
  */
+@Data
+@Configuration
 @WebFilter(urlPatterns = "/*")
+@ConfigurationProperties("duc.jwt")
 public class JwtFilter implements Filter {
 
-    //允许通过的url
-    private static final Set<String> ALLOWED_PATHS = Collections.unmodifiableSet(new HashSet<>(
-            Arrays.asList("/login")));
-
+    //允许访问的path
+    private String[] path;
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
-        String path = request.getRequestURI().substring(request.getContextPath().length()).replaceAll("[/]+$", "");
-        boolean allowedPath = ALLOWED_PATHS.contains(path);
-        if (allowedPath) {
+        String url = request.getRequestURI().substring(request.getContextPath().length()).replaceAll("[/]+$", "");
+
+
+        long indexOf = Stream.of(path).filter(url::contains).count();
+        if (indexOf > 0) {
             filterChain.doFilter(request, response);
             return;
         }
