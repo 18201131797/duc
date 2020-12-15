@@ -1,5 +1,7 @@
 package com.core.encrypt;
 
+import org.apache.commons.codec.binary.Base64;
+
 import java.security.SecureRandom;
 
 import javax.crypto.Cipher;
@@ -44,7 +46,7 @@ class DESUtils {
             Cipher cipher = Cipher.getInstance("DES");  
             cipher.init(Cipher.ENCRYPT_MODE, secretKey, sr);  
             // 加密，并把字节数组编码成字符串  
-            encryptedData = new sun.misc.BASE64Encoder().encode(cipher.doFinal(data.getBytes()));  
+            encryptedData = Base64.encodeBase64String(cipher.doFinal(data.getBytes("utf-8")));
         } catch (Exception e) {  
             throw new RuntimeException("加密错误，错误信息：", e);  
         }  
@@ -82,6 +84,6 @@ class DESUtils {
             throw new RuntimeException("解密错误，错误信息：", e);  
         }  
         return decryptedData;  
-    }  
+    }
 	     
 }
